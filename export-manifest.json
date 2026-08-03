@@ -1,0 +1,425 @@
+{
+  "excluded_path_count": 6,
+  "excluded_release_outputs": [],
+  "excluded_symlinks": [],
+  "exporter_blob": "ffd92a23f6a8d0a0a83af21d7a4adf8f8daf5821",
+  "files": [
+    {
+      "bytes": 108,
+      "mode": "100644",
+      "path": ".gitignore",
+      "role": "export-support",
+      "sha256": "8aec252fe1e8e2a04924eeac30581deea8368b151c9e82d6601a1d6393be8b27",
+      "source_blob": null
+    },
+    {
+      "bytes": 1125,
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "7d275735ee6b5a52b98be101c0bfd05c626a205eacce4f239de833ba4ede2a60",
+      "source_blob": "27ea4e9d4ec71de19c49daf3a2578860c4f77323"
+    },
+    {
+      "bytes": 470,
+      "mode": "100644",
+      "path": "LICENSE",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "55bd30dbbfb4a62d77bfd74a183e68ac3fa392c12802e0b56ad02613b9248d7c",
+      "source_blob": "48fe1688b86d4e1feef1d929170e74cc8adff356"
+    },
+    {
+      "bytes": 1194,
+      "mode": "100644",
+      "path": "Makefile",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "6e65b22533956e8284286e460de0f539b73f5f51f4a8988382255d2dce16d7a9",
+      "source_blob": "755514d98d5754a5a34efeba05b58111d45e56a3"
+    },
+    {
+      "bytes": 307,
+      "mode": "100644",
+      "path": "PROVENANCE.md",
+      "role": "provenance",
+      "sha256": "433504c4f771e0732e03f2b35e6982823ce3082d11b2ca810e000c9125317bba",
+      "source_blob": null
+    },
+    {
+      "bytes": 1283,
+      "mode": "100644",
+      "path": "README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "cf31b466fe370035df6166c121a516a3e1a1abadb42b14811ee8b51ce0802b2d",
+      "source_blob": "d432f46991191c5270d7a0139f25c708aaa85b12"
+    },
+    {
+      "bytes": 880,
+      "mode": "100644",
+      "path": "SPLIT-PROVENANCE.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "52f1ea0c52e986524ed89699ce4eae8dd6e8f38ef8db7493bc3481c4b1f1f771",
+      "source_blob": "b8cda6a5a0258157ad214a02e7bce7fbce86cdf6"
+    },
+    {
+      "bytes": 1360,
+      "mode": "100644",
+      "path": "figures/03-symmetry-groups.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "6c06fe0094c53218d86ad8009624c33eae9f2aaccd5a6faa4574c0e200a83bd0",
+      "source_blob": "2a12957b8ad8d7ba1ed3d6d824faa18b96e9e3c7"
+    },
+    {
+      "bytes": 2703,
+      "mode": "100644",
+      "path": "figures/06-pencil-quotient.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "8cd51bdc3903078504df720dd597cbc2f3a83b48c443f9f095048cebf32f3e15",
+      "source_blob": "06bc90526ec9db7b4f4e1e8647411060325b11c1"
+    },
+    {
+      "bytes": 4621,
+      "mode": "100644",
+      "path": "main.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "5d88c360935f7d946c96a0ab0d5d92df7f967c58412dd9df989395371c1c87f7",
+      "source_blob": "0a8849d14f5db15cd52f73022d223adc03e7d4f5"
+    },
+    {
+      "bytes": 198984,
+      "mode": "100644",
+      "path": "mds-css-transversal-groups.pdf",
+      "rewrites": [],
+      "role": "release-output",
+      "sha256": "08ddf7ec515c8c4d3f437f2315719a44b122a7f6031ba0934fc272fe8492c186",
+      "source_blob": "90894264f081dbd9b75f691128b95bbfc8d752d2"
+    },
+    {
+      "bytes": 21270,
+      "mode": "100644",
+      "path": "refs.bib",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "aaec2757af7bc96f935a19de3bd4215b09558454f6864ade3126351b738b778b",
+      "source_blob": "c11121487ad393bd56608e76c088e126d4882c91"
+    },
+    {
+      "bytes": 1499,
+      "mode": "100644",
+      "path": "scripts/lint_tex_spacing.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "511eb6837ec3b59769f4a2e3d76a9658403907f270246e9d739bec1afcc345e0",
+      "source_blob": "d6940a870427fa412f6e8309387f9cf9f6a6a0ea"
+    },
+    {
+      "bytes": 6606,
+      "mode": "100644",
+      "path": "sections/01-introduction.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "6ad0ea695918682d711143b279a9dedc39fce8799f7d50b6ae6c00ed527493db",
+      "source_blob": "752b0675e0877122385a87970eee77b46da95110"
+    },
+    {
+      "bytes": 6277,
+      "mode": "100644",
+      "path": "sections/02-geometry-ame-dictionary.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "fee45d56d69597b9d16bdd5f1d717295ae320fb0a9b6a6e70dc3f304830db18f",
+      "source_blob": "b93e39e2f3724e7f84afe6745c7b839f41b44112"
+    },
+    {
+      "bytes": 7328,
+      "mode": "100644",
+      "path": "sections/03-diagonal-isoduality.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "ef8ddddd9be0a456dc10c64c6ae9485da41ce3e1d0987d7e6b180762b2efc4c0",
+      "source_blob": "f9ee108402cca2e89faf05de2cf6e550bc6c0b59"
+    },
+    {
+      "bytes": 9579,
+      "mode": "100644",
+      "path": "sections/04-pencil-classification.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "808e86a9bb41691e95b4b0ed7350513b0cb8dd4f95bcaf1df22cde8418200d5d",
+      "source_blob": "56cc67910c0b97fbfc666f2d6850b7c7c2b3e2f4"
+    },
+    {
+      "bytes": 10679,
+      "mode": "100644",
+      "path": "sections/05-logical-clifford-phase.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "0e0f7b69172770aaa8dd6eb8e74db2e775674181288ac98a783f36a49bb2aa48",
+      "source_blob": "fc361c2c6e0c1b457a5f719798f0ffaef8e3dbf5"
+    },
+    {
+      "bytes": 3418,
+      "mode": "100644",
+      "path": "sections/06-lu-invariants.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "9e638aa4b2ff7aca0e9366054356aa237b6d38f9e408e13b204cfcf048953f50",
+      "source_blob": "b96985d1eba9f83f0fb3dba8ae640b90b983b99a"
+    },
+    {
+      "bytes": 1310,
+      "mode": "100644",
+      "path": "sections/07-conclusion.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "76918e3f8d03c557c23f10e3066d54343fc208e9e66edfc2d1bd4670624fecca",
+      "source_blob": "39254b2a2396b3fe7cbcf4b34ce1ccb1cd06a003"
+    },
+    {
+      "bytes": 6318,
+      "mode": "100644",
+      "path": "sections/07-transport-sheaf.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "273f370f80635ce0628851931982d0cbda697bdb26ca8dd8eadfe4aa5add7b0d",
+      "source_blob": "60773cde5ca3a722cb8d7a78fca53d88726c9610"
+    },
+    {
+      "bytes": 2547,
+      "mode": "100644",
+      "path": "sections/08-verification-boundary.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "8c852c168375ab9e53d56eb84874637071cf137dc5bd36dd54c6b2ac0ac02cb2",
+      "source_blob": "5df56088d9f1208aeeaa4a9f6832de02618edc4d"
+    },
+    {
+      "bytes": 5550,
+      "mode": "100644",
+      "path": "sections/09-party-extensions.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "b6c3b05dd5e4e707dbf009eaf573b6a1f9bf255a6643a58c82cfb731595ac9d1",
+      "source_blob": "56147387e4a795adffe65270ef09acef51fa8db3"
+    },
+    {
+      "bytes": 9249,
+      "mode": "100644",
+      "path": "sections/10-scalar-certificates.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "58abf5d92a1e3eae920ebad4e66a938852a51ef003e26ed6b797357b4622eb1a",
+      "source_blob": "e2174305715bb5d64ef44e38458972e8f68b2970"
+    },
+    {
+      "bytes": 3971,
+      "mode": "100644",
+      "path": "supplement/EVIDENCE-MANIFEST.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "96a60138b23f1900750a5672aa07c5e055a91fce5eb4c717a583dc7e23e995ad",
+      "source_blob": "9106edd951ed043d057897924b5627cae1aa9fb9"
+    },
+    {
+      "bytes": 6866,
+      "mode": "100644",
+      "path": "supplement/EVIDENCE.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "e4be790ae9892f2e41f9749886e3e7baf5adb63b410ea97c885f5d8fef702dae",
+      "source_blob": "c3cfb0ebb825b974fe13cad758c32d19bfe7c955"
+    },
+    {
+      "bytes": 1151,
+      "mode": "100644",
+      "path": "supplement/README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "9ddb267002dcb73e8082a9aa03ec86bd326bfcdd193e25f25d7ed6c44aba509e",
+      "source_blob": "028b5953f84d575cb4a3e127eb9a2707a19ca1cd"
+    },
+    {
+      "bytes": 15476,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-19-clebsch-ame-equivalence.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "f2fb460c3c90324bee53cabbe3b495db634fcbb3426c39183685564c48367210",
+      "source_blob": "284221f51b7be210e354b47850b94d5f7a4239a0"
+    },
+    {
+      "bytes": 24692,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-19-clebsch-ame-equivalence.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "3cc76e380be2447fbf49a779320e8a2ceb2d55b92f62d834c36c3b83dbf38a79",
+      "source_blob": "9dced2c013d10809672b7ae8f1b0a41cd65fc5b1"
+    },
+    {
+      "bytes": 24090,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-20-clebsch-ame-pencil-arithmetic.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "29475cf066640668d04a6ebd0f5bbc247670a5803256ec735de8a8acd2569fe5",
+      "source_blob": "5eb613cd6636dcd4fc9064d57091fd13b3cf0a2b"
+    },
+    {
+      "bytes": 225468,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-ame-perfect-tensor-physics.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "0fea19c906fd4ea546c822cf622c81d2721ba40c765ffa39a6badd852c29a7f3",
+      "source_blob": "9272b6df1e5448f0d55c3074db9df4dffb530b6a"
+    },
+    {
+      "bytes": 30814,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-ame-perfect-tensor-physics.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "075f8d6c36b252c66f82e549491d7afa460218d4f96840d0e6cf86a288ed25b7",
+      "source_blob": "c3d1243b9a456c98f9e07cd90a9324b0438f3fdf"
+    },
+    {
+      "bytes": 12193,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-contraction-rank-drop-divisor.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "9ca05a5ed99bb5342ecff817dc964c6f9424ca4cdd69684298b8cd938225525b",
+      "source_blob": "dce2c356a7dbc4f229d932fd7b4e73a282374bcb"
+    },
+    {
+      "bytes": 31985,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-contraction-rank-drop-divisor.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "abd4f23d1ac3b4c610eb3c0a5610866bd941dccdf3bcd59550fa5fd81bb4f1df",
+      "source_blob": "e35c59f547f9c998cad57d1caf7e0497cfbe3146"
+    },
+    {
+      "bytes": 12228,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-four-copy-cover-holonomy.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "d3ac33676b2816c46478b435d33d1bc99057eb8a8ac15e45203cbdd033715c85",
+      "source_blob": "e5596d0f1b671e447793413a8aeb6e5e792a4fc5"
+    },
+    {
+      "bytes": 29015,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-four-copy-cover-holonomy.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "f07863591a2ef87f6dd6ff22c339325b6ad67dacc4acaed0590f0921de051ae6",
+      "source_blob": "831ae1e9f36fc1e926397dffce12905040db2771"
+    },
+    {
+      "bytes": 12689,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-h3-ame-uniform-lu-separation.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "9aa997194da8de379d0b5832a1953d63bd30971f1170d1176f1d000f981ec2cc",
+      "source_blob": "3bf5ea7934aff98137d36098cac3b1886f8e94e8"
+    },
+    {
+      "bytes": 28682,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-h3-ame-uniform-lu-separation.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "a3f1ceeceb9d479e6290841e33c09df615756c7b9cf93ef1f0c3ca9d6a002fb3",
+      "source_blob": "4710318946e775c57d0533a20051c0d2f88272e9"
+    },
+    {
+      "bytes": 14303,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-h3-pentad-orientation-lu.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "e45079d568b08597d514945c0e1ec0aad539d208e02e4da7ee110975eb6322b3",
+      "source_blob": "672e41b88d0fdc34c7ccc3814cff4111ece41310"
+    },
+    {
+      "bytes": 10062,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-h3-pentad-orientation-lu.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "906c35a63308ab83d8169f508debe113945f94c85a5596443ffed7eb1921999b",
+      "source_blob": "adf6a9b9178084362dd528341191dd25d14e4620"
+    },
+    {
+      "bytes": 749592,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-holonomy-completeness.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "0e8d608df0a8024b8dd7dc8f3e39bfad1fad2b222a3452a0da0b8bb09764eec1",
+      "source_blob": "388974b08ff214ff8af660bbeabe8f123aa54157"
+    },
+    {
+      "bytes": 41571,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-holonomy-completeness.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "3d7dcc5a98bafca6c215dc66b024795a9dc024c21fb15d2f5f2063d7a6446f10",
+      "source_blob": "dbbbabc2fb4cd9d783877ff1e4ff8618c5a62989"
+    },
+    {
+      "bytes": 622348,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-25-ame-lu-party-extension-examples.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "fcc903793d9329e12c3739fe3e524d75b809f7290bc3197d9a59ffe26c428d05",
+      "source_blob": "b63f17b226dc8c7941877fca9b14d830b30dc4fd"
+    },
+    {
+      "bytes": 29838,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-25-ame-lu-party-extension-examples.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "0a43695889d863fdd34fb45cad3fee30c3f5e9d7ee9696ed27e1b13413eae00b",
+      "source_blob": "3cb980c7c9a1db5f6813d7bdb4bfce3d160c4b47"
+    },
+    {
+      "bytes": 2859,
+      "mode": "100644",
+      "path": "supplement/verify.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "22af54043007a05f25d02ec54ff98de2e8e3bce7000e9d007439dd06e2c64a2a",
+      "source_blob": "56ad165bd8f12f2d1863d7e600097b0c34b2f3f8"
+    }
+  ],
+  "github": "tavisrudd/mds-css-transversal-groups",
+  "main_sources": [
+    "main.tex"
+  ],
+  "manifest_self_excluded": true,
+  "paper_ids": [
+    "mds_css_transversal_groups"
+  ],
+  "paper_registry_sha256": "bca40b9098e96207bca3c2d7fda28c2dd2b480c6f8450f75780360e78b92a586",
+  "release_output_policy": "legacy-unspecified",
+  "repository": "mds-css-transversal-groups",
+  "repository_map_sha256": "328166a2903fce18485507b2120f3a3938f9001925e80beda7b333260398202f",
+  "schema_version": 1,
+  "source_commit": "b00ef32703db861d6bd4c80ba249bbbc0c09a08c"
+}
