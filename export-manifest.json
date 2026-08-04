@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "a0bc0f5d348f75f7bec6b6c4b4d9fded09fe2e78a93cdf739b2c71678aa3e1f9",
+      "sha256": "9857d6e610412f4136c2ae1c79e649fb6aa3947272273e2af5bcbac4f6a56596",
       "source_blob": null
     },
     {
@@ -93,22 +93,22 @@
       "source_blob": "0a8849d14f5db15cd52f73022d223adc03e7d4f5"
     },
     {
-      "bytes": 202329,
+      "bytes": 203710,
       "mode": "100644",
       "path": "mds-css-transversal-groups.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "4acbdf789f3ed346e4dc537782e89bab6e304da4f7f54936f17b1fc996022414",
-      "source_blob": "a05d4c2e07cee6541e4e4b9dd4f2c3486dc89d44"
+      "sha256": "e18291691c3db6f58e2490fa3ed0894b141d55cc5c5b1f8bc4c9013b9eabec35",
+      "source_blob": "476f01efd131256389b4863f64874bfebaf2238a"
     },
     {
-      "bytes": 21270,
+      "bytes": 21331,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "aaec2757af7bc96f935a19de3bd4215b09558454f6864ade3126351b738b778b",
-      "source_blob": "c11121487ad393bd56608e76c088e126d4882c91"
+      "sha256": "eef90d14a4ea3d2c02c9fe65b31ebec01a85f3bee5320535f5c093f5ed4386c7",
+      "source_blob": "fa2f06bb528df3493129e522a5098a4f3355a262"
     },
     {
       "bytes": 1499,
@@ -129,13 +129,13 @@
       "source_blob": "1444b3feb4bccec32bf5ac6ba2dd877b9e3b10e1"
     },
     {
-      "bytes": 6277,
+      "bytes": 6901,
       "mode": "100644",
       "path": "sections/02-geometry-ame-dictionary.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "fee45d56d69597b9d16bdd5f1d717295ae320fb0a9b6a6e70dc3f304830db18f",
-      "source_blob": "b93e39e2f3724e7f84afe6745c7b839f41b44112"
+      "sha256": "5904ec62cf3e56e71bfbc00e0b66c467e2610c34449a0709f11cd4e90e8d5d0f",
+      "source_blob": "73757d92534c386c02608777be58646fb3864641"
     },
     {
       "bytes": 7328,
@@ -430,5 +430,5 @@
   "repository": "mds-css-transversal-groups",
   "repository_map_sha256": "328166a2903fce18485507b2120f3a3938f9001925e80beda7b333260398202f",
   "schema_version": 1,
-  "source_commit": "cc8a0cedb11462d663d6476a8850fffbf80e3e65"
+  "source_commit": "7ec44d6e0bb6b94ac465d26b5ce2d8480c0a4914"
 }
