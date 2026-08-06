@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "23f9a836cf18d689c1af3beb1b69f4b2f910dbc5a65f513d059c98f16cd21b4e",
+      "sha256": "4dfa2b27b7eec0c5aa17a3da737c8240a5546273b93050350ec2e6b6bd5a33a5",
       "source_blob": null
     },
     {
@@ -118,6 +118,24 @@
       "role": "manuscript-source",
       "sha256": "eef90d14a4ea3d2c02c9fe65b31ebec01a85f3bee5320535f5c093f5ed4386c7",
       "source_blob": "fa2f06bb528df3493129e522a5098a4f3355a262"
+    },
+    {
+      "bytes": 17826,
+      "mode": "100644",
+      "path": "release/RELEASE-MANIFEST.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "09bb8c21e8788a6d88618ca9ae9ec89c31f002bd74a087438a198e9b562329ee",
+      "source_blob": "4a452bb4653482f0760101b111879336693b72ec"
+    },
+    {
+      "bytes": 6818,
+      "mode": "100644",
+      "path": "release/verify_release.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "afe66622bfa629d23a2b868ec5dc9a4bea2cd53db9ed81888b62c4303718d35a",
+      "source_blob": "699eadbe94665537fd52f6a1e6c38bd13a27aeee"
     },
     {
       "bytes": 1499,
@@ -439,5 +457,5 @@
   "repository": "mds-css-transversal-groups",
   "repository_map_sha256": "59230e8d90cbd3a647c7577061816d50d5f3d2fa9ffa1a21e9d6da3c5251fba9",
   "schema_version": 1,
-  "source_commit": "58729c97aa3f22c297abee63749dc3da0501c279"
+  "source_commit": "83c162a23d99825eda93fdd702e06cb8c4ad2b31"
 }
