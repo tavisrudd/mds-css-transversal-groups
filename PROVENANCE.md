@@ -1,6 +1,6 @@
 # Export provenance
 
-- Source snapshot commit: `7ec44d6e0bb6b94ac465d26b5ce2d8480c0a4914`
+- Source snapshot commit: `deebf928d75ee53e4dd21c6b2779c077b9d7c42c`
 - Repository identity: `tavisrudd/mds-css-transversal-groups`
 - Export method: deterministic, content-addressed source materialization.
 - File hashes and source blob identities are recorded in `export-manifest.json`.

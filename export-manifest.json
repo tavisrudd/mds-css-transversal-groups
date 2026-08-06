@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "9857d6e610412f4136c2ae1c79e649fb6aa3947272273e2af5bcbac4f6a56596",
+      "sha256": "24b4b8f1af9ad479a9b68d094ba2c51520ce2c2901d3b9b4b36d0e8a4c3a734a",
       "source_blob": null
     },
     {
@@ -93,13 +93,13 @@
       "source_blob": "0a8849d14f5db15cd52f73022d223adc03e7d4f5"
     },
     {
-      "bytes": 203710,
+      "bytes": 203714,
       "mode": "100644",
       "path": "mds-css-transversal-groups.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "e18291691c3db6f58e2490fa3ed0894b141d55cc5c5b1f8bc4c9013b9eabec35",
-      "source_blob": "476f01efd131256389b4863f64874bfebaf2238a"
+      "sha256": "0198e28e318aaf0483ccc7e2bf0c1d5900e257bac064c63fd7c6e048574f36ed",
+      "source_blob": "409718c09d4d0e2ce30b7e7c8422c27c2b868190"
     },
     {
       "bytes": 21331,
@@ -120,13 +120,13 @@
       "source_blob": "d6940a870427fa412f6e8309387f9cf9f6a6a0ea"
     },
     {
-      "bytes": 7081,
+      "bytes": 7083,
       "mode": "100644",
       "path": "sections/01-introduction.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "754b74ae224d920a739a6d17c6fd2cb0c20c998d6b5dd687a75ff7bc72567e87",
-      "source_blob": "1444b3feb4bccec32bf5ac6ba2dd877b9e3b10e1"
+      "sha256": "904cf9649552b5bded01a21faecd2dec581590eb17e39003e160d1ad13216f90",
+      "source_blob": "fbea757585d722eeb9ee082bf4daaeb37339804d"
     },
     {
       "bytes": 6901,
@@ -197,8 +197,8 @@
       "path": "sections/08-verification-boundary.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "304d2bd569c3cec3e25e5e377671235e7b56246214b85d0ffb504073037ae5c9",
-      "source_blob": "505a296b2bf7cef94b1b7d56a27445c9207e0c94"
+      "sha256": "07931e4d8c102ee5125b5ebd7ec7ca8d8b9a12b07487180c067609d97aa7b4a6",
+      "source_blob": "78d2a594e5b279008ed25529868c6fd6a03bf5ed"
     },
     {
       "bytes": 5550,
@@ -428,7 +428,7 @@
   "paper_registry_sha256": "5f4582b32c009ec3446aa55f3f34974dd7d2e33ac56c44a346ebf6971cdd4f8c",
   "release_output_policy": "legacy-unspecified",
   "repository": "mds-css-transversal-groups",
-  "repository_map_sha256": "328166a2903fce18485507b2120f3a3938f9001925e80beda7b333260398202f",
+  "repository_map_sha256": "1bdb09c56a03b75d686d0267263cefe6b18befe52a3bbbc522bbc9b68b74c8ba",
   "schema_version": 1,
-  "source_commit": "7ec44d6e0bb6b94ac465d26b5ce2d8480c0a4914"
+  "source_commit": "deebf928d75ee53e4dd21c6b2779c077b9d7c42c"
 }
