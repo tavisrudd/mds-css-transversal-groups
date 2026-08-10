@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "3b9b6978f1b894a94943805cb770515a1ef18878ff6ac3ac4310201c37b462c1",
+      "sha256": "ef08e9751f5a6ced47873aa6b283ab37d831b7f8546fa30d322fc9dd2cae0656",
       "source_blob": null
     },
     {
@@ -102,22 +102,22 @@
       "source_blob": "b6781e7e8e1bac1153e779201285cf7eaf40131c"
     },
     {
-      "bytes": 210953,
+      "bytes": 210987,
       "mode": "100644",
       "path": "mds-css-transversal-groups.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "ad97bc1747e3367ebb4ff91d58081336927d27c7db6b88fe51aa97a10b7b41ff",
-      "source_blob": "22da6fe461f6e45eb14f20294868b270f4a317a5"
+      "sha256": "4906d7a17f9a5266eae51cb7af106795b41536ee32420103ec61dc02e1d1f4c3",
+      "source_blob": "d9d837dadb07ec2e4720d36d5a4a57645bd6c62b"
     },
     {
-      "bytes": 22594,
+      "bytes": 22612,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "94968718540441a7e1fc9230c144a4825fee0ec8ec86c90bedd7e7407ab892da",
-      "source_blob": "9ff25b0032a39df4cd5ff96fbe2bb16d0af3e058"
+      "sha256": "1da75c20d097fb8c5e99be646f9c9af9a2d0fdc933828ba5e225ecf30dcd6263",
+      "source_blob": "ac692f62e85e6e0c59bc64068caa55ce4e34b927"
     },
     {
       "bytes": 17826,
@@ -455,7 +455,7 @@
   "paper_registry_sha256": "425708671b56fda38b8dba3daaf10945ad37c8647dabf4dd5041d7b37205497d",
   "release_output_policy": "legacy-unspecified",
   "repository": "mds-css-transversal-groups",
-  "repository_map_sha256": "59230e8d90cbd3a647c7577061816d50d5f3d2fa9ffa1a21e9d6da3c5251fba9",
+  "repository_map_sha256": "98abb280d382d281cf08623f05acffa071a53a792cda31e419791fba225e4102",
   "schema_version": 1,
-  "source_commit": "ea0fc6b39dbcdd18143ecc5a906eb9afc7ac42dd"
+  "source_commit": "2f0c0e766589fb021be91e1e0b42f41aaf8e302d"
 }
