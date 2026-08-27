@@ -1,8 +1,8 @@
 {
+  "content_sha256": "2f4a51a3342d3ad75ed50fa16cc607ab2c5fb37097669ef378d07a7c7e2c3330",
   "excluded_path_count": 6,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
-  "exporter_blob": "7bc6af6a40123bfa071466d9ed3faeaafb7e8d60",
   "files": [
     {
       "bytes": 108,
@@ -40,21 +40,21 @@
       "source_blob": "9a4dae2441954e47e9ebcc63a2cb4b4253799d9a"
     },
     {
-      "bytes": 307,
+      "bytes": 512,
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "ef08e9751f5a6ced47873aa6b283ab37d831b7f8546fa30d322fc9dd2cae0656",
+      "sha256": "c824d55063829e7f320657b6a87c5e2048e6984ecd7475c37041fe1523ccbc43",
       "source_blob": null
     },
     {
-      "bytes": 3250,
+      "bytes": 2953,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "ad494df95f18008fff8f4974c4d004d7aca75f051566239bec62021f8a4f8779",
-      "source_blob": "ad87d51a872decafa28e9c907dd5d66f5a41cc87"
+      "sha256": "afdc96806922d084cb2ca03b0eb3b5fbe61f83375397ba2f3b5558e46ce13923",
+      "source_blob": "4e8bec70827c8b7080ff1b2735d2ac494a3d1735"
     },
     {
       "bytes": 880,
@@ -449,13 +449,6 @@
     "main.tex"
   ],
   "manifest_self_excluded": true,
-  "paper_ids": [
-    "mds_css_transversal_groups"
-  ],
-  "paper_registry_sha256": "425708671b56fda38b8dba3daaf10945ad37c8647dabf4dd5041d7b37205497d",
-  "release_output_policy": "legacy-unspecified",
   "repository": "mds-css-transversal-groups",
-  "repository_map_sha256": "98abb280d382d281cf08623f05acffa071a53a792cda31e419791fba225e4102",
-  "schema_version": 1,
-  "source_commit": "2f0c0e766589fb021be91e1e0b42f41aaf8e302d"
+  "schema_version": 1
 }
