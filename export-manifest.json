@@ -1,5 +1,5 @@
 {
-  "content_sha256": "359a93ef9bec350cb74c9c438444562ae06805d26447aaeee909e8a7960a404b",
+  "content_sha256": "ac429dfd687ac451770476708077d48eda124b315aed6dadd124e229b8780f46",
   "excluded_path_count": 6,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "96154958c9eae97c305b8038345c6bfed795fd01cc2149a1c4df1e3166ec4518",
+      "sha256": "b4ea51b37ba5029dd6661efa9dacda1120cc505917d0e92a71f1e1f26ce99958",
       "source_blob": null
     },
     {
@@ -93,22 +93,22 @@
       "source_blob": "fffc47dcdad786afd22bcbfa8e093237b9b255cf"
     },
     {
-      "bytes": 4576,
+      "bytes": 4707,
       "mode": "100644",
       "path": "main.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "50b94cf316924d2c60b5ed0613e20b01641423c3030608e11a677a4d060abe91",
-      "source_blob": "bb7dc60abe6328b8363f57b68a88f6564d90001d"
+      "sha256": "2acc0931332518ee49e89161c79a95a8225e348067c7f8c2a514319ed8603cfc",
+      "source_blob": "6364e0fb4e59512885c62ca2b406c1c0bf56e857"
     },
     {
-      "bytes": 227587,
+      "bytes": 228604,
       "mode": "100644",
       "path": "mds-css-transversal-groups.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "052bc51c2b251d53f7e662d0ae973ff6cf006f2f53827a6ed6bc0678c7463e66",
-      "source_blob": "91f640d1f88ee592391813299a53ef8c93ea99a9"
+      "sha256": "081643c253b2a271d6d9cfd1bcffe14aa6051ac5b9838edeba7c70de4070e4bb",
+      "source_blob": "4a8621b771af6f2000f3589d9e689660c8b1d8ca"
     },
     {
       "bytes": 22612,
@@ -165,31 +165,31 @@
       "source_blob": "f775601f75b2afd01c765d851092d30a114ab7b7"
     },
     {
-      "bytes": 9818,
+      "bytes": 10275,
       "mode": "100644",
       "path": "sections/03-diagonal-isoduality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "489b0e2b9086e9cba5927df2a8d9d751acdae09daa452f9034fcc86c25e7df91",
-      "source_blob": "4c42a85fa8a3def59bbc0c8419d6d8061dc44d86"
+      "sha256": "b129412658e94abf4f0826522d1046900b1767c097abc29b622db1ca86f28744",
+      "source_blob": "75e38785b1e38b3f2be2b8cc2c8f315b52d52a6c"
     },
     {
-      "bytes": 10572,
+      "bytes": 10597,
       "mode": "100644",
       "path": "sections/04-pencil-classification.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "1c5245e75bcb2478034c376088c9fcae0dae1a0a24a2baafc71d7e54ae1e621b",
-      "source_blob": "c22326a582f834de069ccd7151b0dd247c2c16a2"
+      "sha256": "3cbf8e6edb20c9cc6eab9f232bdd671bc11f457f16adc412ff314d16db6c1dfd",
+      "source_blob": "2d6c05d3d8f0d7c7cd01cb4b99e7223ec8915e7b"
     },
     {
-      "bytes": 11930,
+      "bytes": 12279,
       "mode": "100644",
       "path": "sections/05-logical-clifford-phase.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "d891ec4812aa337ef1c8cd7fdeffa86c5522979493af23d46138b38b7b60edea",
-      "source_blob": "3c65e77ba849243346dca202ea7dc8cac13d44ab"
+      "sha256": "c802eec72474f395b8300440a12fdcc2b381b13ddcc9c30ccb4cf2cfd331539e",
+      "source_blob": "17c68ddc7d761d232e24b976bea5c266113602ed"
     },
     {
       "bytes": 3554,
@@ -219,31 +219,31 @@
       "source_blob": "cd37b68a96ae61f5e81d0c1eaae90ded8966721a"
     },
     {
-      "bytes": 3608,
+      "bytes": 3894,
       "mode": "100644",
       "path": "sections/08-verification-boundary.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "f7063d1243778e1720a8dd59817e6b8df02f73d6ef8f587944e44f53792b882b",
-      "source_blob": "7a68be8834a8ea3965b9f43ef915f428c018257a"
+      "sha256": "0bc80a38b3ca4c2a2e2d8e6b6f30cec63d0484a289f3324df44f41323874cecd",
+      "source_blob": "8cc74d4eb9dca3d1a546a134a5d1225388abd6ab"
     },
     {
-      "bytes": 7515,
+      "bytes": 7709,
       "mode": "100644",
       "path": "sections/09-party-extensions.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "63cf30a667b716bff72de8950f73d84beebfcd737bcbd276ababc1c6f7bff119",
-      "source_blob": "4abbd59ce9d0627d1bbe137e4c271f9b0086ef96"
+      "sha256": "79a41f57973624673c877361a2fba52fcb36b7de17f0d2a5219ac45aeb7e14c9",
+      "source_blob": "eff96b28105a6b3394c3a20330d527eee03a6a5e"
     },
     {
-      "bytes": 10764,
+      "bytes": 10835,
       "mode": "100644",
       "path": "sections/10-scalar-certificates.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "33016c754e25e70bee303678a755eefa7ae7a6a97616bc52003b1cda36b84402",
-      "source_blob": "e1452deeb972934980bcb06980bf5db3b14b75f5"
+      "sha256": "0b085b6e0c73fed43e8d0ffa4025043813bdebf71d005dfff17473f8d82511a7",
+      "source_blob": "59b872e6cdc33da0cf606431929697ae3807479e"
     },
     {
       "bytes": 3971,
