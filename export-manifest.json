@@ -1,5 +1,5 @@
 {
-  "content_sha256": "5eac4f8c1ad3ed0c00606ec5732fd7664ab3c4669c53e20670fe013366418f73",
+  "content_sha256": "0b5b8c592f76db59d1c6b34e75018f44d9aa6e54441306d597935a08547046d4",
   "excluded_path_count": 6,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -13,13 +13,13 @@
       "source_blob": null
     },
     {
-      "bytes": 2092,
+      "bytes": 2591,
       "mode": "100644",
       "path": ".zenodo.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "1f00ce1e03f07a3e6275fdfc98e497a708ce9b5cb8cc3e0fc9850b72a02ef162",
-      "source_blob": "7b2458304b9b29f211a2ba8a13ff5d921f359a4c"
+      "sha256": "de652fc5539cdc043294151d29fcff590364d5d55eaa979990c3ccf51496b2ae",
+      "source_blob": "d876d4da6e89726d66d1e7722b4c47f145d300bb"
     },
     {
       "bytes": 470,
@@ -44,17 +44,17 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "7a031cea48bfe302ee96db334abc827e20bf8f368345bfee7c1356a079513eef",
+      "sha256": "754b7b3ed4363fc575aea3bbba07131491fbc58036e30f4af824857aae692094",
       "source_blob": null
     },
     {
-      "bytes": 3077,
+      "bytes": 3116,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "85a72fb26e741557180971ac2ffb9fe883a1bfdbd28a6a6bf8d058a91d9b92c8",
-      "source_blob": "93e2dbdbb9d501ef08d016fdf3c660c9701b5d39"
+      "sha256": "ccca5c6de5b54cf67730a2ceeaf79326b61e2460090111c71e3331737fbac99f",
+      "source_blob": "d293b83aa6bdc38d5d30372b99e059d0bfbb6cb2"
     },
     {
       "bytes": 880,
@@ -66,22 +66,22 @@
       "source_blob": "b8cda6a5a0258157ad214a02e7bce7fbce86cdf6"
     },
     {
-      "bytes": 1446,
+      "bytes": 1516,
       "mode": "100644",
       "path": "figures/03-symmetry-groups.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "f66af2b3eacac19c61165be3bac610854ed020bb505b256257224715b09e7478",
-      "source_blob": "4d0f3aeacdb509ab581720aa0df3c59693231a10"
+      "sha256": "e1ed52d607bac3d5e1b3bef9885063e87a0bf2878740e062bd5bca1c72bb5f8d",
+      "source_blob": "04e038bf605341512cc5f620ae789872ca93f952"
     },
     {
-      "bytes": 2722,
+      "bytes": 2074,
       "mode": "100644",
       "path": "figures/06-pencil-quotient.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "e9e9ad269a8653a82369c31e36bd36bd9a1bbefbc238df12db8a0248b1cf8db9",
-      "source_blob": "82037ee061b20698cb92406b95da9cad327122d5"
+      "sha256": "4f8bf116dad0cbf33e4fcb0825cdd09c603542aea3200fac8759c9ea381fb523",
+      "source_blob": "923d7c5e363dcf354151b18c9f925a622f97e239"
     },
     {
       "bytes": 168,
@@ -93,22 +93,22 @@
       "source_blob": "fffc47dcdad786afd22bcbfa8e093237b9b255cf"
     },
     {
-      "bytes": 4849,
+      "bytes": 4918,
       "mode": "100644",
       "path": "main.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "8a63e415733ead7f0481ffb8283bca41cb096eda6693498a9a1526f786081443",
-      "source_blob": "859facf49de9068f052e892653a6c89ee900e361"
+      "sha256": "96a58d8d9a6c85ba6cafd8a26a24d15ecc6e9cc9855e6719069d271e5bcc7bfd",
+      "source_blob": "ba072e999c4359384adabed617ac8625ce25d3c4"
     },
     {
-      "bytes": 239868,
+      "bytes": 246756,
       "mode": "100644",
       "path": "mds-css-transversal-groups.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "e7e86f9f9281b4409b546257d8c0168f0819efc5f35c068a47f17b12e4be7287",
-      "source_blob": "0fa27f3a1d1b26a4b1775b15fdbc1d4beed24873"
+      "sha256": "bb6a274ece7117281c493deebf2f2460bb14848f7dc8a63e49db8eda5554235f",
+      "source_blob": "4215fdd795bd0f3a95595dd9fba7bdc2871f9f68"
     },
     {
       "bytes": 23431,
@@ -120,13 +120,13 @@
       "source_blob": "c56791117b3e89275ca1f86468433135178c9a16"
     },
     {
-      "bytes": 17819,
+      "bytes": 18361,
       "mode": "100644",
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "a2e7ee1dc53ef6424f1a950775b65a7b1bfaeeab5be2a4eaf233fc8afb703c87",
-      "source_blob": "5da6d195156a2122e9044d17bcd4407afe2ef7b1"
+      "sha256": "cff59b647e27a0513ecb8d32ed12049bf64ddbe773d4dfd79114b4fbb2ad99a1",
+      "source_blob": "65b5aa33c9906ff7a49939fb0c410b8f9de5ea9b"
     },
     {
       "bytes": 7646,
@@ -147,103 +147,130 @@
       "source_blob": "d6940a870427fa412f6e8309387f9cf9f6a6a0ea"
     },
     {
-      "bytes": 11334,
+      "bytes": 11437,
       "mode": "100644",
       "path": "sections/01-introduction.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "36bc39302ee69c73bb884518a46719bcb21b39da720c327c0d2d479790548651",
-      "source_blob": "c979c2cbcd5bbf0f27292cb3e57f3a890569b327"
+      "sha256": "8eecf6b3ad9d898bfe523c4ce21511b323ed24b84e5aa77fc21a04b0f2649185",
+      "source_blob": "89feb55af08a621f0aa72f4781b538e731021ea6"
     },
     {
-      "bytes": 7093,
+      "bytes": 7535,
       "mode": "100644",
       "path": "sections/02-geometry-ame-dictionary.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "41ce9aad092c1610a5e88460b7bc69cc5ed39efae8dd6a5cbe9d4c90b7131a9c",
-      "source_blob": "f775601f75b2afd01c765d851092d30a114ab7b7"
+      "sha256": "134e64980c72dc9101cc00798d3d8148d1475dcffe4881de51405e3f2af679f9",
+      "source_blob": "bf664a6ec3ee0f9c512553cc807e950e6955871c"
     },
     {
-      "bytes": 13392,
+      "bytes": 10846,
       "mode": "100644",
       "path": "sections/03-diagonal-isoduality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "e782cebcff13ccf938e53161c187667f9a660e97f6f5a997156f21964364bc72",
-      "source_blob": "4a1ac93651b8937d381be3505e66e220b67ff16e"
+      "sha256": "434fd9ed08e0bf5689bedb3cb4968b83d1e584494097f8d75cb6129b44e02f96",
+      "source_blob": "a55e958166606c3c819943b9d23d0c522718a04e"
     },
     {
-      "bytes": 10601,
+      "bytes": 5552,
       "mode": "100644",
       "path": "sections/04-pencil-classification.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "38b402c26252ce23a2bdf104553e01d38d4d164f77a42464aa9d621c06fe78b7",
-      "source_blob": "602272e68b96e129110ac00dddf2d04fde2c7079"
+      "sha256": "413f466067ed290a0dad55ab36b5bb99a3291c182716d702e849e8cd2609c6c2",
+      "source_blob": "1d29f1ef030ad47064127138f146ae032fc2762f"
     },
     {
-      "bytes": 12298,
+      "bytes": 5371,
       "mode": "100644",
       "path": "sections/05-logical-clifford-phase.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "1504dfbb8814951a464a34f676c0f773cd08ca9217089d3fe34a07fc0d26b0c4",
-      "source_blob": "e36adc176299239324809b05d229247c0cf4fa06"
+      "sha256": "b04dc852fc2a0d858142f3f9c9d08a8ecaca513d8e20f0348c0058311a95b22a",
+      "source_blob": "8931869c19934a43e959137d263dab1f70ecd0a9"
     },
     {
-      "bytes": 3554,
+      "bytes": 3927,
       "mode": "100644",
       "path": "sections/06-lu-invariants.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "275971d3e64a7c7bec4a311f54259bd02f31016c59f6e29fccb1723bf9fce49b",
-      "source_blob": "0439f564294322a09d9589c479b2441b3a58402e"
+      "sha256": "ea5d5ac30f5354e1062db70616b370f10befaa3fff8b055f1700e0307a97f9e4",
+      "source_blob": "679923a6c2e8d8ae674f0b6da57db8ee54cbea48"
     },
     {
-      "bytes": 1749,
+      "bytes": 1744,
       "mode": "100644",
       "path": "sections/07-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "c641348eeec78c7347b36cc9909f9c8dd04346566a8f6ec5dd9a7ea19643bfab",
-      "source_blob": "b6697e586cb02517f1cb00cf227e5d0271d4b4db"
+      "sha256": "13407ab590e4844341e6824a4284937dbc51be3300a257c2377b4c60d34d2076",
+      "source_blob": "a134d4aa80032aa65ff4c878c3bee7a812cabeca"
     },
     {
-      "bytes": 6597,
+      "bytes": 6993,
       "mode": "100644",
       "path": "sections/07-transport-sheaf.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "e00ab4dc121bd0f0d8603bfb92f95d7dbfaa235e2146891fe3b192fa895dc226",
-      "source_blob": "cd37b68a96ae61f5e81d0c1eaae90ded8966721a"
+      "sha256": "6f8a6f60b0fe2109b5bea41eaa3a653d21a0094797d2908bf1c693f360456b61",
+      "source_blob": "09e0d40990062feac476f34fd9caca5dce00cee1"
     },
     {
-      "bytes": 3931,
+      "bytes": 3945,
       "mode": "100644",
       "path": "sections/08-verification-boundary.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "73d9ffdccbcbf867dd35ccd216977bd6b91807e3eea85d9c2ed76824ca99bab8",
-      "source_blob": "3f1c53c0f6205848f6066e676340ce64db8dc27b"
+      "sha256": "fac484446ff4205766486a001eb5b78d130cb2a372c2db580c206bbe0985ae2a",
+      "source_blob": "cd51115aa8880b2935513bdc60f192756ee9a072"
     },
     {
-      "bytes": 7930,
+      "bytes": 7963,
       "mode": "100644",
       "path": "sections/09-party-extensions.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "e324fa1bc522e54468a64004e6293c8602932212f47b32df7b6e2a9aa3caaf6f",
-      "source_blob": "4df93562ddc7dd3a77c093ed7ac0a6a2728354cd"
+      "sha256": "96deb20faef9f4b9c8267248eda7f642ada90175a60503b7e43aa83347dd6d95",
+      "source_blob": "80b7c5193ad6c5b9abe033a1a62d66bdf1ed20cd"
     },
     {
-      "bytes": 10857,
+      "bytes": 10988,
       "mode": "100644",
       "path": "sections/10-scalar-certificates.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "e3c9d45e27ddf3f5f623bacdff41e29e9ec4665c0c7e5f348af9996a87e96d74",
-      "source_blob": "bd4c047b6e63b13994113f4842529b1cd6f1da8d"
+      "sha256": "4add5534a0940e1497d612d3ed00468db1f958411c1f2b25a080a513c0e7d144",
+      "source_blob": "0a9777d92ef0adc40a92be112bd8af95054932cd"
+    },
+    {
+      "bytes": 4070,
+      "mode": "100644",
+      "path": "sections/11-lift-refinements.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "3385ac8b9712c62d01e62f9f053ee0a37144571ebbe2132b887deb1071b52b63",
+      "source_blob": "a0beb2dc02960de0eed61629266644e779905924"
+    },
+    {
+      "bytes": 6035,
+      "mode": "100644",
+      "path": "sections/12-six-point-syndrome-example.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "9456c7835f94f17bd7fb9c77d2734a3cd44d70bbaf7c6e536d9abc28d338f308",
+      "source_blob": "567e9a56fdf6055c14ef0bdd935ebd91c7d6420e"
+    },
+    {
+      "bytes": 7609,
+      "mode": "100644",
+      "path": "sections/13-pencil-calculations.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "932bc09bf3bd374068be34343d8a820aa1015e778f7ea4a5a194d87a140635cf",
+      "source_blob": "51d1baa8bab997ff8ab9a021b56cb940aeca3f83"
     },
     {
       "bytes": 3971,
