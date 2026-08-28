@@ -1,5 +1,5 @@
 {
-  "content_sha256": "fc15f2d0ad63605d993a3827645d2ec556a955f2437169a3f2df3950efca807e",
+  "content_sha256": "ff6b2be46cd93d67148030b99928bca9340f15ba8d1b4c5f0c18b5c99b8d9dda",
   "excluded_path_count": 6,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "ab25c9b063a3fca6708dc5d54fb9a9c6e3c4bda05790828c6af2f1ea1b00d5ba",
+      "sha256": "6366e2972acb80ac061827aec25a0cbf5ed4a9fe310296e9db4efa825713e239",
       "source_blob": null
     },
     {
@@ -102,13 +102,13 @@
       "source_blob": "ba072e999c4359384adabed617ac8625ce25d3c4"
     },
     {
-      "bytes": 252804,
+      "bytes": 246945,
       "mode": "100644",
       "path": "mds-css-transversal-groups.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "9f9e13135179e5986d4693381e8a7cda85d9418750522a3dae5f2b22ad39042e",
-      "source_blob": "5c3732322687f3accec018848194c550997f95ae"
+      "sha256": "2d0ee04d8a84d6aed17e6819907fd60db5885ac2b566c435ac7b5ff9baea6988",
+      "source_blob": "88dee2ce26fdfea5d758cfb4df35c9a38b925fb1"
     },
     {
       "bytes": 23431,
@@ -125,8 +125,8 @@
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "3e44abbd4cd55bd1787a3231a7f4929da3516582e3c8bddc1e3209e3c419d0e3",
-      "source_blob": "a2373d3397f83bf3c9340ded341211feaee0c5c2"
+      "sha256": "4998165b6d1a6039163a5d7b86d958d08da14fb5f425da54b455deb4d1503291",
+      "source_blob": "2ec402c59afd28deeaec26bebe4222111ebc964c"
     },
     {
       "bytes": 7646,
@@ -165,13 +165,13 @@
       "source_blob": "bf664a6ec3ee0f9c512553cc807e950e6955871c"
     },
     {
-      "bytes": 10846,
+      "bytes": 10163,
       "mode": "100644",
       "path": "sections/03-diagonal-isoduality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "434fd9ed08e0bf5689bedb3cb4968b83d1e584494097f8d75cb6129b44e02f96",
-      "source_blob": "a55e958166606c3c819943b9d23d0c522718a04e"
+      "sha256": "bf130685e702eddc51e464c5d61c183faba1d33f17baea13f6bd5870af90888a",
+      "source_blob": "87ffd26bc476e15a8787282d8439a2844f416ff0"
     },
     {
       "bytes": 5555,
@@ -201,13 +201,13 @@
       "source_blob": "679923a6c2e8d8ae674f0b6da57db8ee54cbea48"
     },
     {
-      "bytes": 1839,
+      "bytes": 1765,
       "mode": "100644",
       "path": "sections/07-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "a074cada7bfd9a648e68a30bf4a3bc364b83621b548a42bd7ca690ef72d54ac5",
-      "source_blob": "6d648a392eb5bbc1546eda22af3dcfe6cc245a28"
+      "sha256": "ca97a141a3a342b0bc12e40948a8071c392c6f62373256d8bfa21fc9dd01cd93",
+      "source_blob": "97e7ac2c15b989d396e427e80b0e311dc6dcb9eb"
     },
     {
       "bytes": 8014,
@@ -219,22 +219,22 @@
       "source_blob": "4e09fbc4758818ae429edda862ad4d7be8800908"
     },
     {
-      "bytes": 3898,
+      "bytes": 3866,
       "mode": "100644",
       "path": "sections/08-verification-boundary.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "405721f9e36dd12d235ffa987cac1c6fdc61c0deb5f4ba5264f4fe2622afe372",
-      "source_blob": "f5453ffd580906f039e2239dfe58ff365a0e9384"
+      "sha256": "8e6a4e739595d2dfe3159669d67a7b51aa562bafcda84682e75c67f1ba986c28",
+      "source_blob": "d0a4e235de9bc40684e897362c0f1532ecd162a0"
     },
     {
-      "bytes": 9307,
+      "bytes": 5176,
       "mode": "100644",
       "path": "sections/09-party-extensions.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "7337eb9c6169a2aaf200a70c94d5f3ca74e1b07f9293c958c5e4249086bc908a",
-      "source_blob": "4ada545ace8b36a84633cf0f1f3f08e4363f6170"
+      "sha256": "396150d410f94e5e92c329c4fbc12468e8e6b00ded2566db333988f4f57be796",
+      "source_blob": "d1466dc1c40b50132d54f2daadbeefe0b997fb73"
     },
     {
       "bytes": 12845,
@@ -246,22 +246,22 @@
       "source_blob": "85dd3d5147c839cd249d0b63ce384f9a72a2d4c0"
     },
     {
-      "bytes": 4117,
+      "bytes": 4842,
       "mode": "100644",
       "path": "sections/11-lift-refinements.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "ebdc427dd9b4d8bd570f1afa8dc0a690b23934677e1523a08587b68fe88174b4",
-      "source_blob": "0ca2d29ad468d80310431a1264de4a2e4d40d190"
+      "sha256": "c3f8520f7da7b509e0241e67cf7a4f71b6671b3df28c40e5e026bd48a3a59e5f",
+      "source_blob": "15df319b93f17de62557f4f1410e1116e7100404"
     },
     {
-      "bytes": 6035,
+      "bytes": 5933,
       "mode": "100644",
       "path": "sections/12-six-point-syndrome-example.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "9456c7835f94f17bd7fb9c77d2734a3cd44d70bbaf7c6e536d9abc28d338f308",
-      "source_blob": "567e9a56fdf6055c14ef0bdd935ebd91c7d6420e"
+      "sha256": "94e73d404623d5f590b760673cd29c7898d8449db0d1b6111f6e99c7d657ffc1",
+      "source_blob": "dec3cd00d42dfc3a2271b6478dcf40d7299d6f4f"
     },
     {
       "bytes": 7513,
@@ -282,13 +282,13 @@
       "source_blob": "9106edd951ed043d057897924b5627cae1aa9fb9"
     },
     {
-      "bytes": 9741,
+      "bytes": 9786,
       "mode": "100644",
       "path": "supplement/EVIDENCE.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "6d8340dd05f93b510eac7921341c38151563a9432a2f3891a66831f901010dfa",
-      "source_blob": "8195b81692ea1a9630db5b5dab6a10a3ab2b3704"
+      "sha256": "4da3c481ae550f1bd77ea0649ab5c263386f3d847a1617d395cd9b9b9212efc2",
+      "source_blob": "c0398efbeca8456eddb8c04f8ff6b1ff705ee5d0"
     },
     {
       "bytes": 1140,
@@ -462,13 +462,13 @@
       "source_blob": "56ad165bd8f12f2d1863d7e600097b0c34b2f3f8"
     },
     {
-      "bytes": 19795,
+      "bytes": 19828,
       "mode": "100644",
       "path": "verification/claims.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "2789d9844309f127f0cc8856399e4c1f2a3619c71caaccdcc2a95c85744dcca3",
-      "source_blob": "bf30f714987e0576157aad29db1ec41b965de484"
+      "sha256": "265e85a6a7575080b1b4dc9cd105a2d6c1bfa3d7f475156bedfaaef7dcc64cb4",
+      "source_blob": "a3d7a74eab9948bd8089d494c43282ef0b4797e0"
     }
   ],
   "github": "tavisrudd/mds-css-transversal-groups",
