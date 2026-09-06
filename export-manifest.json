@@ -1,5 +1,5 @@
 {
-  "content_sha256": "ff6b2be46cd93d67148030b99928bca9340f15ba8d1b4c5f0c18b5c99b8d9dda",
+  "content_sha256": "c64c1c646ee9412366c6b90451c46207261068cd75bafc9f670811c4ea894150",
   "excluded_path_count": 6,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "6366e2972acb80ac061827aec25a0cbf5ed4a9fe310296e9db4efa825713e239",
+      "sha256": "7356b79225e227bb3dcfab9dd99a98210aca9191f109cf4bbadf819a94c614f3",
       "source_blob": null
     },
     {
@@ -102,13 +102,13 @@
       "source_blob": "ba072e999c4359384adabed617ac8625ce25d3c4"
     },
     {
-      "bytes": 246945,
+      "bytes": 247637,
       "mode": "100644",
       "path": "mds-css-transversal-groups.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "2d0ee04d8a84d6aed17e6819907fd60db5885ac2b566c435ac7b5ff9baea6988",
-      "source_blob": "88dee2ce26fdfea5d758cfb4df35c9a38b925fb1"
+      "sha256": "e0be2b3fc223111bb614be9497c5b335419ff40172c2c84e2d9eb1eee69c2d44",
+      "source_blob": "94ad79904ce1b8001a48e491f442914767d5f358"
     },
     {
       "bytes": 23431,
@@ -165,13 +165,13 @@
       "source_blob": "bf664a6ec3ee0f9c512553cc807e950e6955871c"
     },
     {
-      "bytes": 10163,
+      "bytes": 10363,
       "mode": "100644",
       "path": "sections/03-diagonal-isoduality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "bf130685e702eddc51e464c5d61c183faba1d33f17baea13f6bd5870af90888a",
-      "source_blob": "87ffd26bc476e15a8787282d8439a2844f416ff0"
+      "sha256": "08efd08cbdce0b8d57b8145987e98dd48546a0091b8acddab0201396828d2a86",
+      "source_blob": "21c42925eedd4324996b264057d5ae14139faf3d"
     },
     {
       "bytes": 5555,
@@ -192,13 +192,13 @@
       "source_blob": "8931869c19934a43e959137d263dab1f70ecd0a9"
     },
     {
-      "bytes": 3927,
+      "bytes": 4322,
       "mode": "100644",
       "path": "sections/06-lu-invariants.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "ea5d5ac30f5354e1062db70616b370f10befaa3fff8b055f1700e0307a97f9e4",
-      "source_blob": "679923a6c2e8d8ae674f0b6da57db8ee54cbea48"
+      "sha256": "6f1b295cf81e9623c989f2cebdb3eb8a777ee0f2ea4c710748dfa5165a6dd678",
+      "source_blob": "aea0ef2fbe5a71a8cf31553e6e956e6321ea891e"
     },
     {
       "bytes": 1765,
