@@ -14,8 +14,8 @@ the tracked certificate.  No randomness, floating point, network access, or
 external computer-algebra package is used.
 
 The integrity-only command ends with
-`verified 17 evidence artifact(s)`.  A successful full run additionally ends
-with `replayed 8 evidence bundle(s)`; each generator reports a successful
+`verified 19 evidence artifact(s)`.  A successful full run additionally ends
+with `replayed 9 evidence bundle(s)`; each generator reports a successful
 comparison with its tracked certificate.
 
 ## Imported bundles
@@ -30,6 +30,7 @@ comparison with its tracked certificate.
 | Four-copy rank-drop divisor replay | The admitted pencil, with characteristics 3/5 as boundary coincidences, 7 as component merger, and 11/13/41 as ramification phenomena | `2026-07-23-contraction-rank-drop-divisor.{py,json}` | Exact quotient-field row reduction and integral maximal-minor witnesses independently check the manuscript's double-coset proof; direct finite-field Gaussian elimination replays every admitted parameter for q=7,11,13,17,19,23,29,31. |
 | `thm:transport-divisor` replay | The four-copy contraction and its two divisor components, double-coset multiplicities, and stated exceptional arithmetic | `2026-07-23-four-copy-cover-holonomy.{py,json}` | A signed cycle-cover ledger and fraction-free determinant independently check the representative determinants; a third replay compares the `24 x 21` section and `9 x 9` transport kernels for all 720 party assignments at six exact `(q,t)` pairs. |
 | `thm:h3-party-extension` replay and supplementary party-extension examples | The certificate contains twelve prime-field rows. The H3 and equivalent `z=1` rows independently check the manuscript's integral `S_5` theorem; six additional rows are supplementary examples rather than paper theorems. No arbitrary-six-arc or extension-field splitting claim is made. | `2026-07-25-ame-lu-party-extension-examples.{py,json}` | The checker exhausts all 720 party permutations per row after a complete fixed-kernel anchor normalization, checks the full CSS Lagrangian, records every normalized factor, and verifies explicit complements and parity actions. The six q=11 fixed-kernel, party-image, and total-group orders are independently compared with the separate perfect-tensor census. |
+| `prop:additive-conductor`, `thm:additive-label-groups`, `prop:pencil-hermitian-gale` replay | Additive conductors of sixteen listed code pairs over F_4, F_8, F_9, F_16, F_27; fixed-coordinate label groups of the hexacode, the four Hermitian pencil points of F_9, one Euclidean and one zero-type control, and the zero-type pencil point t = 2a+1 of F_49 (label group of order 2016 with 96 semilinear elements); every regular pencil parameter over F_9, F_25, F_27, F_49, F_81, F_121, F_125, F_169. The theorems are proved in the text for every finite field; this certifies only the listed cases | `2026-11-26-additive-mds-conductors.{py,json}` | Each F_p-dimension from an explicit F_p-linear system is compared with the Galois-sector count from independent F_q Schur-product ranks; Hermitian label groups are enumerated over the whole additive label algebra; the F_49 label group is enumerated by solving for the Z-block forced by each X-block, a shortcut checked against full enumeration at the F_25 control; and the proof's explicit map is checked to be an injective homomorphism onto the directly enumerated unitary group of `[[0,1],[-1,0]]`; at every pencil point the code-to-dual sectors are compared with the roots of `D_tau` and the normalized matrix with its closed form. A separate SageMath/GAP replay outside this package found explicit isomorphisms with GU_2(2), GU_2(3), GU_2(7), Sp_2(9), GL_1(25) and GL_2(7). |
 
 ## Certificate and trust boundary
 

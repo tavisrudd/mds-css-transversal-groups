@@ -7,9 +7,14 @@ parameters into an isomorphism and leaves room for at most one projective
 map.
 
 The conductor and endomorphism-algebra statements below are valid over every
-finite field.  Identifying their determinant-one units with the full local
-Clifford action uses \(q\) prime.  For \(q=p^e\) with \(e>1\), they describe
-only the \(\F_q\)-linear sector of the trace-symplectic Clifford group.
+finite field.  For \(q=p^e\) with \(e>1\) they describe the \(\F_q\)-linear
+sector of the trace-symplectic Clifford group.
+Section~\ref{subsec:additive-labels} treats arbitrary \(\F_p\)-linear label
+maps.  It shows that this sector is the whole fixed-coordinate label group
+unless \(C\) is diagonally equivalent to a code over a proper subfield of
+\(\F_q\), or \(C^\perp\) is diagonally equivalent to a Galois conjugate
+\(\tau C\) that is not diagonally equivalent to \(C\).  It identifies the
+group in every case.
 
 \begin{proposition}[Equal-parameter MDS conductors]
 \label{prop:diagonal-multiplier-line}
@@ -196,7 +201,7 @@ upper elementary unipotents because \(s_j\ne0\).  Together these generate
 \(\mathrm{SL}_2(q)\).  Under the Choi correspondence, an input unitary
 \(U\) implements the logical unitary \(U^{-T}=\overline{U}\).  Complex
 conjugation fixes \(X(a)\) and sends \(Z(b)\) to \(Z(-b)\), so an input
-block \(A\) induces the logical block \(KAK\) with \(K=\diag(1,-1)\).
+block \(A\) induces the logical block \(RAR\) with \(R=\diag(1,-1)\).
 This map is an automorphism of \(\mathrm{SL}_2(q)\) preserving the
 diagonal torus, so every one-qudit logical symplectic action has a
 product-Clifford physical implementation.  Logical Paulis have
@@ -247,3 +252,375 @@ frame changes can make these actions uniform and records two phase
 refinements.  The linear
 \(\mathrm{SL}_2(q)\) factor admits coherent Weil lifts, whereas adjoining
 logical Pauli translations gives the nonsplit Heisenberg central extension.
+
+\subsection{Prime-power fields: additive label maps}
+\label{subsec:additive-labels}
+
+Let \(q=p^e\) and \(\Gamma=\mathrm{Gal}(\F_q/\F_p)\).  A local Clifford acts
+on Pauli labels by an arbitrary trace-symplectic \(\F_p\)-linear map
+\eqref{eq:projective-clifford-sequence}, and the block equations
+\eqref{eq:block-preservation} hold verbatim for \(\F_p\)-linear blocks.  The
+question is therefore which coordinatewise \(\F_p\)-linear maps carry one MDS
+code into another.  The answer is governed by a subfield of \(\F_q\) read
+off from the code, and by at most one class of field automorphisms.
+
+For a linear code \(E\leq\F_q^n\) and \(\tau\in\Gamma\), put
+\(\tau E=\{(\tau c_1,\ldots,\tau c_n):c\in E\}\).  Write \(E\sim F\), and
+call \(E\) and \(F\) \emph{diagonally equivalent}, when \(F=s\star E\) for
+some \(s\in(\F_q^\times)^n\).  The \emph{additive conductor} is
+\[
+ \Cond_{\F_p}(E,F)=\{\alpha\in\End_{\F_p}(\F_q)^n:\alpha(E)\subseteq F\},
+\]
+with \(\alpha=(\alpha_1,\ldots,\alpha_n)\) acting coordinatewise.  If \(E\)
+is a linear \([n,k,n-k+1]_q\) MDS code with \(1\leq k<n\), every
+\(k\)-subset of coordinates is an information set, and the systematic
+generator matrix \([I_k\mid A]\) on an information set \(I\) has no zero
+entry, because each entry is a \(k\)-by-\(k\) minor up to sign.  Its
+\emph{normalized matrix} is
+\[
+ N_E=\bigl(A_{ij}A_{11}/(A_{i1}A_{1j})\bigr)_{i,j}.
+\]
+Its entries are cross-ratios of the entries of \(A\).  Let
+\(K_E=\F_p(N_E)\) be the \emph{cross-ratio field}.  When
+\(k\in\{1,n-1\}\), the matrix \(A\) is a single row or column, so \(N_E\)
+consists of ones and \(K_E=\F_p\).
+
+\begin{lemma}[Cross-ratio field]
+\label{lem:cross-ratio-field}
+Let \(E,F\leq\F_q^n\) be linear \([n,k,n-k+1]_q\) MDS codes with
+\(1\leq k<n\), and let \(\tau\in\Gamma\).
+\begin{enumerate}
+\item On a fixed information set, \(E\sim F\) if and only if \(N_E=N_F\),
+  and \(N_{\tau E}=\tau(N_E)\).
+\item \(K_E\) is the smallest subfield \(L\leq\F_q\) for which \(E\) is
+  diagonally equivalent to the extension of scalars of a code over \(L\).
+  In particular \(K_E\) does not depend on the information set.
+\item \(\tau E\sim E\) if and only if \(\tau\) fixes \(K_E\) pointwise.
+\item \(K_{E^\perp}=K_E\).
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+If \(F=s\star E\), then
+\(F=\mathrm{row}[\,I_k\mid\diag(s_I)^{-1}A\diag(s_J)\,]\), where \(J\) is
+the complement of \(I\).  Diagonal equivalence therefore acts on systematic
+matrices by independent row and column scalings, and \(N_E\) is the unique
+matrix in the orbit of \(A\) whose first row and first column consist of
+ones.  This proves the first assertion of item~1.  The second holds because
+Gaussian elimination commutes with \(\tau\).
+
+The code \(\mathrm{row}[I_k\mid N_E]\) is defined over \(K_E\) and is
+diagonally equivalent to \(E\).  Conversely, if \(E\sim E_0\otimes\F_q\) with
+\(E_0\leq L^n\), then \(N_E=N_{E_0}\) has entries in \(L\).  This proves
+item~2.  Item~3 follows from item~1: \(\tau E\sim E\) exactly when
+\(\tau(N_E)=N_E\).  For item~4, \((s\star E)^\perp=s^{-1}\star E^\perp\) and
+\((E_0\otimes\F_q)^\perp=E_0^\perp\otimes\F_q\), so \(E^\perp\) is
+diagonally equivalent to a code over \(K_E\), and \(K_{E^\perp}\subseteq
+K_E\).  The reverse inclusion is the same statement for \(E^\perp\).
+\end{proof}
+
+For a subfield \(K\leq\F_q\) and \(\sigma\in\mathrm{Gal}(K/\F_p)\), let
+\(\End_K^\sigma(\F_q)\) be the space of \(\sigma\)-semilinear \(K\)-maps
+\(\nu\) of \(\F_q\), that is, \(\nu(\lambda u)=\sigma(\lambda)\nu(u)\) for
+\(\lambda\in K\).  The next proposition shows that every additive conductor
+between equal-parameter MDS codes is one such space, applied with the same
+\(\nu\) at every coordinate up to a fixed diagonal twist.
+
+\begin{proposition}[Additive MDS conductors]
+\label{prop:additive-conductor}
+Let \(1\leq k<n\), and let \(E,F\leq\F_q^n\) be linear
+\([n,k,n-k+1]_q\) MDS codes.  Then
+\begin{equation}\label{eq:galois-sector-decomposition}
+ \Cond_{\F_p}(E,F)=\bigoplus_{\tau\in\Gamma}\Cond(\tau E,F)\,\tau,
+ \qquad
+ \Cond(\tau E,F)\,\tau=\{x\mapsto s\star\tau(x):s\in\Cond(\tau E,F)\},
+\end{equation}
+and the following hold.
+\begin{enumerate}
+\item Every nonzero \(\alpha\in\Cond_{\F_p}(E,F)\) has \(\alpha_i\ne0\) for
+  every \(i\).
+\item \(\Cond_{\F_p}(E,F)\ne0\) exactly when \(\tau E\sim F\) for some
+  \(\tau\in\Gamma\).  In that case \(K_E=K_F=:K\), the restriction
+  \(\sigma=\tau|_K\) does not depend on the choice of \(\tau\), the nonzero
+  summands are exactly those with \(\tau|_K=\sigma\), and
+  \[
+   \dim_{\F_p}\Cond_{\F_p}(E,F)=e\,[\F_q:K].
+  \]
+\item In that case, if \(E=E_0\otimes\F_q\) and \(F=F_0\otimes\F_q\) with
+  \(E_0,F_0\leq K^n\), then \(F_0=r\star\sigma(E_0)\) for some
+  \(r\in(K^\times)^n\), and
+  \[
+   \Cond_{\F_p}(E,F)=\{x\mapsto r\star\nu(x):\nu\in\End_K^\sigma(\F_q)\},
+  \]
+  with \(\nu\) applied at every coordinate.  In particular every element is
+  \(\sigma\)-semilinear over \(K\), with the same \(\sigma\) at every
+  coordinate.
+\end{enumerate}
+Consequently \(\Cond_{\F_p}(C,C)\cong\End_{K_C}(\F_q)\), which is
+\(\F_q\mathbf1\) when \(K_C=\F_q\).  The code-to-dual conductor
+\(\Cond_{\F_p}(C,C^\perp)\) is either zero or concentrated on one class
+\(\sigma\in\mathrm{Gal}(K_C/\F_p)\), and then \(\sigma^2=1\).
+\end{proposition}
+
+\begin{proof}
+By Dedekind's independence of characters, every
+\(\phi\in\End_{\F_p}(\F_q)\) is uniquely \(\sum_\tau c_\tau\tau\) with
+\(c_\tau\in\F_q\); the maps \(c\tau\) are \(\F_q\)-independent, and both
+sides have \(\F_p\)-dimension \(e^2\).  Thus every \(\alpha\) is uniquely
+\(\sum_\tau s_\tau\tau\) with \(s_\tau\in\F_q^n\).  Let \(a\) generate
+\(\F_q\) over \(\F_p\).  Because \(E\) and \(F\) are \(\F_q\)-linear, the
+conductor is stable under \(\alpha\mapsto\alpha m_a\) and under
+\(\alpha\mapsto m_c\alpha\) for constants \(c\in\F_q\), where \(m_c\) is
+multiplication by \(c\).  On the \(\tau\)-component, the operator
+\(\alpha\mapsto\alpha m_a-m_{\rho(a)}\alpha\) is multiplication by
+\(\tau(a)-\rho(a)\).  The conjugates of \(a\) are distinct, so the product of
+these operators over \(\rho\ne\tau\) kills every other component and
+rescales the \(\tau\)-component by a nonzero constant.  Hence each
+component \(s_\tau\tau\) of a conductor element is a conductor element, and
+\(s_\tau\tau\) lies in the conductor exactly when
+\(s_\tau\star\tau(E)\subseteq F\).  This proves
+\eqref{eq:galois-sector-decomposition}.
+
+Proposition~\ref{prop:diagonal-multiplier-line} applies to the MDS codes
+\(\tau E\) and \(F\).  Each summand is zero or a full-support line, and it
+is nonzero exactly when \(\tau E\sim F\).  Item~1 follows: \(\alpha_i=0\)
+forces \(s_{\tau,i}=0\) for every \(\tau\), by uniqueness of the expansion,
+and hence \(s_\tau=0\) for every \(\tau\).  If \(\tau E\sim F\), then
+\(\tau'E\sim F\) if and only if \(\tau^{-1}\tau'E\sim E\), that is, if and
+only if \(\tau'|_{K_E}=\tau|_{K_E}\), by Lemma~\ref{lem:cross-ratio-field}.
+The nonzero summands therefore form one coset of
+\(\mathrm{Gal}(\F_q/K_E)\), which has \([\F_q:K_E]\) elements, each
+contributing a line of \(\F_p\)-dimension \(e\).  Also
+\(K_F=\F_p(\tau N_E)=\tau(K_E)\), and subfields of \(\F_q\) of equal order
+coincide, so \(K_F=K_E\).  This proves item~2.
+
+For item~3, \(E_0\) and \(F_0\) are diagonally equivalent over \(K\) to
+\(\mathrm{row}[I_k\mid N_E]\) and \(\mathrm{row}[I_k\mid N_F]\), by the
+scalings in the proof of Lemma~\ref{lem:cross-ratio-field}, and
+\(N_F=\tau N_E=\sigma N_E\).  Hence \(F_0=r\star\sigma(E_0)\) with
+\(r\in(K^\times)^n\).  For every \(\tau'\) with \(\tau'|_K=\sigma\),
+\(\tau'E=\sigma(E_0)\otimes\F_q\) and
+\(\Cond(\tau'E,F)=\F_q r\).  The conductor is therefore the set of maps
+\(r\star\nu\) with \(\nu\) in the span of the maps \(c\tau'\), and this span
+is \(\End_K^\sigma(\F_q)\): it is contained there, and both have
+\(\F_p\)-dimension \(e[\F_q:K]\).
+
+For \(E=F=C\), take \(\sigma=1\).  For the dual statement,
+\(C^\perp=s\star\tau C\) gives
+\(C=s^{-1}\star\tau(C^\perp)=s^{-1}\tau(s)\star\tau^2C\), so \(\tau^2\)
+fixes \(K_C\) by Lemma~\ref{lem:cross-ratio-field}.
+\end{proof}
+
+For invertible coordinate maps, semilinearity over the field generated by
+the entries of a standard-form generator matrix is the mechanism behind
+Adriaensen and Ball's characterization of additive MDS codes equivalent to
+linear codes \cite[Lemmas~5.2 and~5.6]{AdriaensenBall2023}, where coordinate
+maps are written as linearised polynomials, that is, expanded in Galois
+sectors.  The proposition applies that expansion to the whole conductor,
+including its noninvertible elements, which occur whenever \(K\ne\F_q\), and
+computes its exact dimension.
+
+Proposition~\ref{prop:additive-conductor} sorts a code \(C\) into three
+types: the additive code-to-dual conductor is zero; it is concentrated on
+\(\sigma=1\), so that \(C\sim C^\perp\) as in
+Proposition~\ref{prop:two-endomorphism-algebras}; or it is concentrated on
+the involution \(\sigma\) of \(K_C\), so that \(C^\perp\sim\tau C\) for an
+automorphism \(\tau\) with \(\tau C\not\sim C\).  We call the three types
+\emph{zero}, \emph{Euclidean}, and \emph{Hermitian}.  In the Hermitian type,
+\([K_C:\F_p]\) is even, and \(K_0\) denotes the fixed field of \(\sigma\),
+so \(|K_C|=|K_0|^2\).
+
+Write \(G^{\mathrm{add}}_C\) for the group of sitewise \(\F_p\)-linear
+Pauli-label maps that preserve \(L_C=C_X\oplus C^\perp_Z\) and the
+trace-symplectic form
+\(\omega((x,z),(x',z'))=\Tr_{\F_q/\F_p}(xz'-x'z)\) at every coordinate.
+
+\begin{theorem}[Additive fixed-coordinate label groups]
+\label{thm:additive-label-groups}
+Let \(q=p^e\), let \(C\leq\F_q^{2m}\) be a linear \([2m,m,m+1]_q\) MDS code,
+and put \(K=K_C\) and \(d=[\F_q:K]\).  Projection of
+\(G^{\mathrm{add}}_C\) to any one coordinate is injective, and
+\[
+ G^{\mathrm{add}}_C\cong
+ \begin{cases}
+  \mathrm{GL}_d(K), & C\text{ of zero type},\\
+  \mathrm{Sp}_{2d}(K), & C\text{ of Euclidean type},\\
+  \mathrm{GU}_{2d}(K_0), & C\text{ of Hermitian type}.
+ \end{cases}
+\]
+In the Euclidean and Hermitian types the sitewise \(\F_p\)-linear maps
+preserving \(L_C\) form an algebra isomorphic to \(M_{2d}(K)\), and
+\(G^{\mathrm{add}}_C\) is the isometry group of a nondegenerate
+\(\sigma\)-skew-Hermitian form on \(K^{2d}\).  If \(K=\F_q\), the group
+\(G^{\mathrm{add}}_C\) equals the \(\F_q\)-linear group \(T\) or
+\(\mathrm{SL}_2(q)\) of Proposition~\ref{prop:two-endomorphism-algebras} in
+the first two types.  In the Hermitian type it is
+\(\mathrm{GU}_2(\sqrt q)\), and exactly \(2(q-1)\) of its elements are
+semilinear for an automorphism of \(\F_q\).
+\end{theorem}
+
+The proof turns the label algebra into the endomorphism algebra of one
+\(2d\)-dimensional \(K\)-space.  In the Hermitian type, the \(K\)-structure
+on the \(Z\)-labels is twisted by \(\sigma\); this twist is what converts
+the trace-symplectic form into a skew-Hermitian one.
+
+\begin{proof}
+\emph{Reduction.}  Choose \(C=D(C_0\otimes\F_q)\) with \(D\) invertible
+diagonal and \(C_0\leq K^{2m}\), by Lemma~\ref{lem:cross-ratio-field}.  The
+sitewise map \((x,z)\mapsto(D^{-1}x,Dz)\) preserves \(\omega\) at every
+coordinate and sends \(L_C\) to \(L_{C_0\otimes\F_q}\), because
+\((DE)^\perp=D^{-1}E^\perp\).  Conjugation by it identifies the two label
+groups, so we may assume \(C=C_0\otimes\F_q\).  Then
+\(C^\perp=C_0^\perp\otimes\F_q\).  The four blocks of a label map are
+additive conductors, and Proposition~\ref{prop:additive-conductor}, item~3,
+describes each of them.  The diagonal blocks are maps \(\mu\) and \(\mu'\)
+in \(\End_K(\F_q)\), applied at every coordinate.  Injectivity of the
+projection follows from item~1 of that proposition.
+
+\emph{Zero type.}  Both off-diagonal blocks vanish: a nonzero conductor
+\(C^\perp\to C\) would give \(\tau C^\perp\sim C\), and dualizing would give
+\(\tau C\sim C^\perp\).  Write \(T_K=\Tr_{\F_q/K}\).  A pair
+\((\mu,\mu')\) preserves \(\omega\) exactly when
+\(\Tr_{K/\F_p}T_K(\mu(x)\mu'(z))=\Tr_{K/\F_p}T_K(xz)\) for all \(x,z\).  Both
+sides are \(\Tr_{K/\F_p}\) of a \(K\)-bilinear form, and replacing \(x\) by
+\(\lambda x\) with \(\lambda\in K\) shows that this holds exactly when the
+two \(K\)-bilinear forms agree.  Thus \(\mu'\) is the inverse adjoint of
+\(\mu\) for the nondegenerate pairing \(T_K(xz)\), and
+\(\mu\mapsto(\mu,\mu')\) identifies \(G^{\mathrm{add}}_C\) with
+\(\mathrm{GL}_K(\F_q)\cong\mathrm{GL}_d(K)\).
+
+\emph{Euclidean and Hermitian types.}  Let \(\sigma\) be the class of the
+code-to-dual conductor, and let \(K_0\) be its fixed field, with \(K_0=K\)
+when \(\sigma=1\).  By Proposition~\ref{prop:additive-conductor},
+\(C_0^\perp=r\star\sigma(C_0)\) with \(r\in(K^\times)^{2m}\).  Dualizing
+gives \(C_0=r^{-1}\star\sigma(C_0^\perp)\).  Applying \(\sigma\), and using
+\(\sigma^2=1\), gives \(C_0^\perp=\sigma(r)\star\sigma(C_0)\).  Hence
+\(\sigma(r)=\lambda r\) for a scalar \(\lambda\in K^\times\), by
+Proposition~\ref{prop:diagonal-multiplier-line} over \(K\).  Applying
+\(\sigma\) again gives \(\lambda\sigma(\lambda)=1\).  By Hilbert's
+Theorem~90 for \(K/K_0\) (trivial when \(\sigma=1\)),
+\(\lambda=\kappa/\sigma(\kappa)\) for some
+\(\kappa\in K^\times\), and \(\kappa r\) is fixed by \(\sigma\).  Replacing
+\(r\) by \(\kappa r\), we may assume \(r_i\in K_0^\times\) for every \(i\).
+Proposition~\ref{prop:additive-conductor} now gives the off-diagonal blocks
+\(x\mapsto r\star\nu'(x)\) and \(z\mapsto r^{-1}\star\nu(z)\), with
+\(\nu,\nu'\in\End_K^\sigma(\F_q)\) applied at every coordinate.
+
+Let \(W=\F_q\oplus\F_q\) with the \(K\)-structure
+\(\lambda\cdot(x,z)=(\lambda x,\sigma(\lambda)z)\).  A map
+\(h=\begin{psmallmatrix}\mu&\nu\\\nu'&\mu'\end{psmallmatrix}\) of \(W\) is
+\(K\)-linear exactly when \(\mu,\mu'\) are \(K\)-linear and \(\nu,\nu'\) are
+\(\sigma\)-semilinear.  Put \(\Delta_i(x,z)=(x,r_iz)\).  Because
+\(r_i\in K_0\), the label map at coordinate \(i\) is
+\(\Delta_ih\Delta_i^{-1}\) for one \(h\) independent of \(i\), and
+\(h\) ranges over all of \(\End_K(W)\cong M_{2d}(K)\).  The map from label
+maps to \(h\) respects composition.  Define
+\[
+ H((x,z),(x',z'))=T_K(xz')-\sigma\bigl(T_K(x'z)\bigr).
+\]
+It is \(K\)-linear in the first variable and \(\sigma\)-semilinear in the
+second, it satisfies \(H(w',w)=-\sigma(H(w,w'))\), and it is
+nondegenerate because \(T_K(xz)\) is.  Since
+\(r_i\in K_0\) and \(\Tr_{K/\F_p}\circ\sigma=\Tr_{K/\F_p}\),
+\[
+ \omega(\Delta_iw,\Delta_iw')=\Tr_{K/\F_p}\bigl(r_iH(w,w')\bigr).
+\]
+For \(K\)-linear \(h\), the difference \(H(hw,hw')-H(w,w')\) is again
+sesquilinear, and replacing \(w\) by \(\lambda\cdot w\) shows that
+\(h\) preserves \(\Tr_{K/\F_p}(r_iH)\) exactly when it preserves \(H\).  The
+condition is the same at every coordinate.  Hence \(G^{\mathrm{add}}_C\) is
+the isometry group of \(H\) on the \(2d\)-dimensional \(K\)-space \(W\).
+
+If \(\sigma=1\), then \(H\) is alternating, since \(H(w,w)=0\), and its
+isometry group is \(\mathrm{Sp}_{2d}(K)\).  If \(\sigma\ne1\), choose
+\(\varepsilon\in K^\times\) with \(\sigma(\varepsilon)=-\varepsilon\)
+(\(\varepsilon=1\) in characteristic two).  Then \(\varepsilon H\) is a
+nondegenerate Hermitian form with the same isometry group.  Because
+\(\sigma\ne1\), the trace \(\Tr_{K/K_0}\) is not identically zero, and for a
+Hermitian form \(h\) polarization gives
+\[
+ h(u+\lambda v,u+\lambda v)-h(u,u)-N_{K/K_0}(\lambda)h(v,v)
+ =\Tr_{K/K_0}\bigl(\lambda h(v,u)\bigr).
+\]
+Hence a Hermitian
+form that is not identically zero has an anisotropic vector, so it is
+diagonalizable.  Its diagonal entries lie in \(K_0^\times\), and the
+norm \(K^\times\to K_0^\times\) is surjective.  Every nondegenerate
+Hermitian form on \(K^{2d}\) is therefore isometric to the standard one, and
+its isometry group is \(\mathrm{GU}_{2d}(K_0)\).
+
+If \(K=\F_q\), then \(d=1\), every block is a multiple of one field
+automorphism, and in the first two types \(\sigma=1\), so every label map is
+\(\F_q\)-linear.  In the Hermitian type, with the basis
+\((1,0),(0,1)\) of \(W\), the matrix of \(h\) is
+\(\begin{psmallmatrix}a&b\\\sigma(c)&\sigma(d)\end{psmallmatrix}\) when
+\(\mu,\nu,\nu',\mu'\) are multiplication by \(a\), \(b\sigma\), \(c\sigma\),
+and \(d\), respectively.  An element is semilinear for one automorphism of
+\(\F_q\) exactly when it is diagonal or antidiagonal, by uniqueness of the
+Galois expansion.  The isometry conditions reduce to \(ad=1\) and to
+\(bc=-1\), respectively, which give \(2(q-1)\) elements.
+\end{proof}
+
+Over a prime field, \(K=\F_q\) and \(\sigma=1\), so only the first two
+types occur.  The theorem then recovers
+Proposition~\ref{prop:two-endomorphism-algebras}.
+
+\begin{corollary}[Transversal groups over prime-power fields]
+\label{cor:prime-power-transversal-group}
+Let \(q\) be a prime power, let \(m\geq2\), let \(C\leq\F_q^{2m}\) be a
+linear \([2m,m,m+1]_q\) MDS code, and fix an input coordinate \(j\).  Let
+\(\pi_j\colon G^{\mathrm{add}}_C\to\mathrm{Sp}_{2e}(\F_p)\) be projection
+to coordinate \(j\), and let \(R(x,z)=(x,-z)\).  The projective group of
+logical unitaries with fixed-coordinate transversal implementations is the
+full preimage of the subgroup \(R\,\pi_j(G^{\mathrm{add}}_C)\,R\) under
+the label map \(\operatorname{PCliff}(q)\to\mathrm{Sp}_{2e}(\F_p)\) of
+\eqref{eq:projective-clifford-sequence}.  This subgroup is isomorphic to
+\(G^{\mathrm{add}}_C\), hence to \(\mathrm{GL}_d(K_C)\),
+\(\mathrm{Sp}_{2d}(K_C)\), or \(\mathrm{GU}_{2d}(K_0)\) according to the
+type of \(C\).  The kernel of the logical group's label map is the group
+\(\F_q^2\) of logical Pauli translations.
+\end{corollary}
+
+\begin{proof}
+\emph{Forward inclusion.}  The imported
+Corollary~\ref{cor:transversal-clifford} holds for every prime power and
+makes every factor of a product implementation Clifford.  Its label map is
+therefore trace-symplectic and \(\F_p\)-linear at every coordinate, and it
+preserves \(L_C\), so it lies in \(G^{\mathrm{add}}_C\).
+
+\emph{Lifts.}  Conversely, every element of \(G^{\mathrm{add}}_C\) has a
+Clifford lift at each coordinate by
+\eqref{eq:projective-clifford-sequence}, which holds for \(p=2\) as well, and
+Lemma~\ref{lem:pauli-phase-correction} corrects the product by a product
+Pauli to a symmetry of \(\lvert\Psi_C\rangle\).  Logical Paulis have
+physical Pauli representatives, so the logical group contains the kernel
+\(\F_q^2\) and is the full preimage of its image.
+
+\emph{Choi twist.}  As in the proof of
+Theorem~\ref{thm:diagonal-isodual-transversal-group}, an input factor \(U\)
+implements the logical unitary \(\overline U\), and complex conjugation
+sends \(X(a)\) to \(X(a)\) and \(Z(b)\) to \(Z(-b)\).  The logical label map
+is therefore \(R\,\pi_j(g)\,R\) for the label symmetry \(g\), and \(\pi_j\)
+is injective by Theorem~\ref{thm:additive-label-groups}.  In characteristic
+two the additive character is real-valued, so complex conjugation fixes
+every Pauli, \(R\) is the identity, and the logical label map is the input
+block itself.  For odd \(p\) the preimage splits by the Weil
+representation; for \(p=2\) it need not, so no semidirect product is
+asserted.
+\end{proof}
+
+For \(q\) an odd prime the corollary is
+Theorem~\ref{thm:diagonal-isodual-transversal-group}.  The
+hexacode \([6,3,4]_4\) is of Hermitian type with \(K=\F_4\): its
+fixed-coordinate label group is \(\mathrm{GU}_2(2)\), of order \(18\), whereas
+the \(\F_4\)-linear group is the torus \(T\) of order \(3\).  Of the \(18\)
+label symmetries, \(12\) are semilinear for no automorphism of \(\F_4\).
+
+The hexacode is the smallest Hermitian example.  Hermitian type needs
+\([K_C:\F_p]\) even, so \(q\geq4\).  For \(m=2\), every \([4,2,3]_q\) code is
+generalized Reed--Solomon, hence diagonally equivalent to its dual and of
+Euclidean type.  For \(m=3\) and \(q=4\), the columns of a generator matrix
+are six points of \(\mathrm{PG}(2,4)\), no three collinear.  Any five of
+them form a conic, and every line through the sixth meets that conic in at
+most one point, so it is tangent and the sixth point is the nucleus.  Hence
+every \([6,3,4]_4\) code is monomially equivalent to the hexacode.

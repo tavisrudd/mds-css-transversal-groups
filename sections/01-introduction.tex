@@ -89,6 +89,25 @@ imported rigidity theorem below shows that an arbitrary product-unitary
 implementation is Clifford at every site, proving that the constructed groups
 are exact.
 
+\paragraph{Prime-power fields.}
+Over \(q=p^e\), a local Clifford may act on Pauli labels by any
+trace-symplectic \(\F_p\)-linear map, so the four block equations involve
+additive rather than linear conductors.  Section~\ref{subsec:additive-labels}
+shows that these conductors split into Galois sectors and are semilinear over
+the \emph{cross-ratio field} \(K_C\), the smallest field over which \(C\) is
+diagonally equivalent to a code.  Theorem~\ref{thm:additive-label-groups}
+identifies the fixed-coordinate label group as \(\mathrm{GL}_d(K_C)\),
+\(\mathrm{Sp}_{2d}(K_C)\), or \(\mathrm{GU}_{2d}(K_0)\), where
+\(d=[\F_q:K_C]\).  The three cases occur when \(C^\perp\) is diagonally
+equivalent to no Galois conjugate of \(C\), to \(C\) itself, or to a
+conjugate by an automorphism acting on \(K_C\) as an involution with fixed
+field \(K_0\).  With the imported rigidity theorem,
+Corollary~\ref{cor:prime-power-transversal-group} gives the exact
+transversal group over every prime power.  The hexacode over \(\F_4\) is the
+smallest Hermitian example, because Hermitian type needs \(q\geq4\) and
+length at least six, and every \([6,3,4]_4\) code is monomially equivalent
+to it; its label group is \(\mathrm{GU}_2(2)\).
+
 \paragraph{Prior results.}
 The result fits into a broad study of transversal and automorphism-induced
 logical gates.  Rains organizes coordinatewise symplectic symmetries through
@@ -108,6 +127,17 @@ uniform convention \(V_F^{\otimes n}\), Prakash and Singhal characterize
 odd-prime one-logical-qudit codes with a complete transversal Clifford set
 \cite[Section~IV.C]{PrakashSinghal2026}; Albert gives related normal forms for
 binary CSS codes \cite[Sections~III--V]{Albert2026}.
+Dasu and Burton's classification of multiblock diagonal transversal Clifford
+groups of qubit codes has symplectic, general linear, and unitary types
+\cite[Theorem~6.1]{DasuBurton2025}, the last for codes linear over
+\(\F_4\); the prime-power trichotomy of
+Theorem~\ref{thm:additive-label-groups} has the same three classical types
+in the different setting of one-block, site-dependent MDS--CSS labels.
+Adriaensen and Ball's characterization of additive MDS codes equivalent to
+linear codes rests on the semilinearity mechanism and the
+linearised-polynomial, or Galois-sector, expansion behind
+Proposition~\ref{prop:additive-conductor}
+\cite[Lemmas~5.2 and~5.6]{AdriaensenBall2023}.
 
 The closest algebraic predecessors have different outputs and conventions.
 Rains's invariance algebra supplies the general container for the block

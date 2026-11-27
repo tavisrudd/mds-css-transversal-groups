@@ -1,5 +1,5 @@
 {
-  "content_sha256": "c64c1c646ee9412366c6b90451c46207261068cd75bafc9f670811c4ea894150",
+  "content_sha256": "c05297e711518b4ed10de1cac4bc796d34429bb0289323b992a0810f835e2d2d",
   "excluded_path_count": 6,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -13,13 +13,13 @@
       "source_blob": null
     },
     {
-      "bytes": 2591,
+      "bytes": 2893,
       "mode": "100644",
       "path": ".zenodo.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "de652fc5539cdc043294151d29fcff590364d5d55eaa979990c3ccf51496b2ae",
-      "source_blob": "d876d4da6e89726d66d1e7722b4c47f145d300bb"
+      "sha256": "53c7f73b1ed9918211e4e3687a591274531dce294d0b02f14584e2eb73b93aae",
+      "source_blob": "d5224412ba63676bc17e6600124adc0b7942649b"
     },
     {
       "bytes": 470,
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "7356b79225e227bb3dcfab9dd99a98210aca9191f109cf4bbadf819a94c614f3",
+      "sha256": "323e29d6dcb35ed77d4fdb79bc50ae78f6c964067b0e7267dda6136d6d141587",
       "source_blob": null
     },
     {
@@ -93,40 +93,40 @@
       "source_blob": "fffc47dcdad786afd22bcbfa8e093237b9b255cf"
     },
     {
-      "bytes": 4918,
+      "bytes": 5261,
       "mode": "100644",
       "path": "main.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "96a58d8d9a6c85ba6cafd8a26a24d15ecc6e9cc9855e6719069d271e5bcc7bfd",
-      "source_blob": "ba072e999c4359384adabed617ac8625ce25d3c4"
+      "sha256": "99401da8f8bc8c9f6d9796c82359b65292cd1f35631f6ea0328849b489b7200c",
+      "source_blob": "738062193b3e0d5f4b9b7b4521bf29de00ba4d7c"
     },
     {
-      "bytes": 247637,
+      "bytes": 294928,
       "mode": "100644",
       "path": "mds-css-transversal-groups.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "e0be2b3fc223111bb614be9497c5b335419ff40172c2c84e2d9eb1eee69c2d44",
-      "source_blob": "94ad79904ce1b8001a48e491f442914767d5f358"
+      "sha256": "64c53cb29b5c1db313435572a0cb741ffa19d6d078ae55438d490214bade69f3",
+      "source_blob": "c82d13d9dd355f8e969a7ec808a94cc3cd67adab"
     },
     {
-      "bytes": 23431,
+      "bytes": 23769,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "6801495040ffc43947e52e817916fa85366e03d8b1a5cf2bb02d415fe68564ce",
-      "source_blob": "c56791117b3e89275ca1f86468433135178c9a16"
+      "sha256": "d18be34f7c77102e4feba6661255f09fac76096d55c30da407a027ec36791b75",
+      "source_blob": "9ebea8f6e151498579b040032a83aa956ca7dda1"
     },
     {
-      "bytes": 18361,
+      "bytes": 18362,
       "mode": "100644",
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "4998165b6d1a6039163a5d7b86d958d08da14fb5f425da54b455deb4d1503291",
-      "source_blob": "2ec402c59afd28deeaec26bebe4222111ebc964c"
+      "sha256": "15334879993fba5b370925d9e71f60070c60e6ce7c162a1a3d28ff2c4ccc6178",
+      "source_blob": "331fcf160d90b6ca2e96e7f7c969038197f38ec7"
     },
     {
       "bytes": 7646,
@@ -147,13 +147,13 @@
       "source_blob": "d6940a870427fa412f6e8309387f9cf9f6a6a0ea"
     },
     {
-      "bytes": 11447,
+      "bytes": 13347,
       "mode": "100644",
       "path": "sections/01-introduction.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "ce856afa1934ce7996f776b22aeba2606a9ab4429e94c4d1575b15ca0ca04f06",
-      "source_blob": "a391bcb12f8eea83f216697e47ae9e676eddcc14"
+      "sha256": "e4cb4d4c8eb6420f52c70dd0fe96763269df2cd69b5526cd02024172ba80594f",
+      "source_blob": "8a410fd763bd848fa297c8b531ce5820e762ca87"
     },
     {
       "bytes": 7535,
@@ -165,22 +165,22 @@
       "source_blob": "bf664a6ec3ee0f9c512553cc807e950e6955871c"
     },
     {
-      "bytes": 10363,
+      "bytes": 30574,
       "mode": "100644",
       "path": "sections/03-diagonal-isoduality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "08efd08cbdce0b8d57b8145987e98dd48546a0091b8acddab0201396828d2a86",
-      "source_blob": "21c42925eedd4324996b264057d5ae14139faf3d"
+      "sha256": "fb044d93b9996fed1ebb2e2fbbd6b31975e201395feea7788f01af74b74bfd3b",
+      "source_blob": "af1caa661dc6999381e90fa1ab68406846b1c362"
     },
     {
-      "bytes": 5555,
+      "bytes": 5702,
       "mode": "100644",
       "path": "sections/04-pencil-classification.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "667909968207db11f434eccf6b16d776a4a41d1ead6911518203cb05c0013d5d",
-      "source_blob": "7cbbfdaa1c605a6148669695b3676c5dd9a603a3"
+      "sha256": "d5bdada214c6fd52ca1f9bbbc6901ece4803d43dc148376a8125b9f010b0699f",
+      "source_blob": "ab224ed397874db6b5de9d03ff4a4efe56346ea3"
     },
     {
       "bytes": 5371,
@@ -201,13 +201,13 @@
       "source_blob": "aea0ef2fbe5a71a8cf31553e6e956e6321ea891e"
     },
     {
-      "bytes": 1765,
+      "bytes": 2348,
       "mode": "100644",
       "path": "sections/07-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "ca97a141a3a342b0bc12e40948a8071c392c6f62373256d8bfa21fc9dd01cd93",
-      "source_blob": "97e7ac2c15b989d396e427e80b0e311dc6dcb9eb"
+      "sha256": "faaef0fe8d9302d341088680bf2d708f539aa8665128d46cd1c218061aa13bde",
+      "source_blob": "42a8e527ea0f5bd8198b1bf5776c44ff995e8a8f"
     },
     {
       "bytes": 8014,
@@ -264,31 +264,31 @@
       "source_blob": "dec3cd00d42dfc3a2271b6478dcf40d7299d6f4f"
     },
     {
-      "bytes": 7513,
+      "bytes": 13732,
       "mode": "100644",
       "path": "sections/13-pencil-calculations.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "c349cd2f569b25c012aa72809c3962ff5629f0f9140fda3f6a2334731d5f45d0",
-      "source_blob": "94bbc01fabb0d74224e06eabcbb7bab299d80bf4"
+      "sha256": "bfca52c1fa2a1d61279934f7c56aa7e9fbf14ddd40192b024ceb638daa22d679",
+      "source_blob": "0abbfa3f5551294be9dcbe95bbf8ebc7f2f1bebd"
     },
     {
-      "bytes": 3971,
+      "bytes": 4421,
       "mode": "100644",
       "path": "supplement/EVIDENCE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "96a60138b23f1900750a5672aa07c5e055a91fce5eb4c717a583dc7e23e995ad",
-      "source_blob": "9106edd951ed043d057897924b5627cae1aa9fb9"
+      "sha256": "2c95c7f244e1b6023827a593b8ebd01875a2c68294a12cf196727aaffaadcb3e",
+      "source_blob": "22d645129f958cd289e2c02a4b374b9ebcc3f861"
     },
     {
-      "bytes": 9786,
+      "bytes": 11211,
       "mode": "100644",
       "path": "supplement/EVIDENCE.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "4da3c481ae550f1bd77ea0649ab5c263386f3d847a1617d395cd9b9b9212efc2",
-      "source_blob": "c0398efbeca8456eddb8c04f8ff6b1ff705ee5d0"
+      "sha256": "13d648fa735eed52a229320820cfa280022541e7de8bc6a514de8024015e7efa",
+      "source_blob": "1c41ad2ba4b52ab1ebd4706878236e9c8ec5d341"
     },
     {
       "bytes": 1140,
@@ -453,6 +453,24 @@
       "source_blob": "3cb980c7c9a1db5f6813d7bdb4bfce3d160c4b47"
     },
     {
+      "bytes": 9329,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-11-26-additive-mds-conductors.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "d175f218e83f56ca60df0b77338f116c879cd072efe4f9aa04b129ce9bee9ff0",
+      "source_blob": "3267e36ae5928634c238135b26652509b86fdb49"
+    },
+    {
+      "bytes": 31113,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-11-26-additive-mds-conductors.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "53f7c3f89166feb0e3bcc02ee863bb748f25180216948a475087454108820fb3",
+      "source_blob": "a2d3bbaf3fc2b6fe43528d34216833744dc996eb"
+    },
+    {
       "bytes": 2859,
       "mode": "100644",
       "path": "supplement/verify.py",
@@ -462,13 +480,13 @@
       "source_blob": "56ad165bd8f12f2d1863d7e600097b0c34b2f3f8"
     },
     {
-      "bytes": 19828,
+      "bytes": 24031,
       "mode": "100644",
       "path": "verification/claims.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "265e85a6a7575080b1b4dc9cd105a2d6c1bfa3d7f475156bedfaaef7dcc64cb4",
-      "source_blob": "a3d7a74eab9948bd8089d494c43282ef0b4797e0"
+      "sha256": "699507c65a43ad574c1c961b155fd4157019e788da7b46e3b1157a7b5fbd35ed",
+      "source_blob": "f6f255788ca9cbb7e14d0b591b8d1fad22261e9a"
     }
   ],
   "github": "tavisrudd/mds-css-transversal-groups",

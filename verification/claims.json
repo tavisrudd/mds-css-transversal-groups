@@ -311,6 +311,62 @@
       "lean_terminals": [],
       "evidence": [],
       "boundary": "Manuscript proof; no certificate and no Lean terminal."
+    },
+    {
+      "label": "lem:cross-ratio-field",
+      "statement": "For linear [n,k,n-k+1]_q MDS codes, diagonal equivalence is equality of normalized systematic matrices, the cross-ratio field K_E is the smallest field of diagonal definition and is independent of the information set, tau E ~ E exactly when tau fixes K_E, and K_{E^perp}=K_E.",
+      "route": "conceptual",
+      "lean_terminals": [],
+      "evidence": [
+        "evidence/2026-11-26-additive-mds-conductors.json"
+      ],
+      "boundary": "Manuscript proof for every finite field; the certificate checks information-set independence on the listed codes. Lean pending."
+    },
+    {
+      "label": "prop:additive-conductor",
+      "statement": "For equal-parameter linear MDS codes over F_{p^e}, the coordinatewise F_p-linear conductor is the direct sum of the Galois sectors Cond(tau E,F) tau; nonzero elements have full support; it is nonzero exactly when tau E ~ F for some tau, and then it has F_p-dimension e[F_q:K], consists of sigma-semilinear K-maps uniform up to a diagonal twist, and for the code-to-dual conductor sigma^2=1.",
+      "route": "conceptual",
+      "lean_terminals": [],
+      "evidence": [
+        "evidence/2026-11-26-additive-mds-conductors.json"
+      ],
+      "boundary": "Manuscript proof for every finite field and 1<=k<n; the certificate checks sixteen listed code pairs over F_4, F_8, F_9, F_16, F_27. Lean pending."
+    },
+    {
+      "label": "thm:additive-label-groups",
+      "statement": "For a linear [2m,m,m+1]_q MDS code with cross-ratio field K and d=[F_q:K], the fixed-coordinate trace-symplectic additive label group is GL_d(K), Sp_{2d}(K), or GU_{2d}(K_0) for the zero, Euclidean, and Hermitian types; projection to one coordinate is injective; for K=F_q in the Hermitian type exactly 2(q-1) elements are semilinear.",
+      "route": "conceptual",
+      "lean_terminals": [],
+      "evidence": [
+        "evidence/2026-11-26-additive-mds-conductors.json"
+      ],
+      "boundary": "Manuscript proof for every prime power; the certificate enumerates the hexacode, the four Hermitian pencil points of F_9, and two controls, and checks the explicit unitary model on the Hermitian rows. Lean pending."
+    },
+    {
+      "label": "cor:prime-power-transversal-group",
+      "statement": "Over every prime power, the fixed-coordinate transversal logical group of the MDS--CSS code is the full preimage in PCliff(q) of the subgroup R pi_j(G^add_C) R, with pi_j the injective projection to an input coordinate and R(x,z)=(x,-z); it is isomorphic to the additive label group, with kernel the logical Paulis F_q^2.",
+      "route": "conceptual-with-cited-input",
+      "lean_terminals": [],
+      "evidence": [],
+      "boundary": "Composition of thm:additive-label-groups with the imported cor:transversal-clifford and lem:pauli-phase-correction for every prime power. For p=2 the Choi twist R is the identity; no splitting claim for p=2. Lean pending."
+    },
+    {
+      "label": "prop:pencil-hermitian-gale",
+      "statement": "On the regular non-GRS pencil locus over an odd field, K_{C_t}=F_p(y(t)); tau C_t is diagonally equivalent to C_t^perp exactly when D_tau(t)=0, with a unique witness line; and dim_{F_p} Cond_{F_p}(C_t,C_t^perp)=e #{tau : D_tau(t)=0}.",
+      "route": "conceptual",
+      "lean_terminals": [],
+      "evidence": [
+        "evidence/2026-11-26-additive-mds-conductors.json"
+      ],
+      "boundary": "Manuscript proof by an explicit nine-entry linear system; the certificate replays every regular parameter over F_9, F_25, F_27, F_49, F_81, F_121, F_125, F_169. Lean pending; the existing Frobenius-sector terminals cover only the reverse direction."
+    },
+    {
+      "label": "prop:pencil-semilinear-intertwiners",
+      "statement": "If K_{C_t}=F_q and D_tau(t) is nonzero for every tau, every local-Clifford intertwiner from Psi_t to a permuted Psi_u is semilinear for one field automorphism.",
+      "route": "conceptual",
+      "lean_terminals": [],
+      "evidence": [],
+      "boundary": "Manuscript proof from prop:additive-conductor and prop:pencil-hermitian-gale; no Galois-match converse and no extension-field orbit classification. Lean pending."
     }
   ]
 }

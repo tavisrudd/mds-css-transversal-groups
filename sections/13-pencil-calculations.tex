@@ -146,9 +146,9 @@ Membership in \(\mathcal U\) gives \(t\ne1\), and injectivity of \(\sigma\)
 gives \(\sigma(t)\ne1\).  Cross multiplication in
 \eqref{eq:frobenius-diagonal-sector} gives
 \[
- s(1-t)^2-t(1-s)^2=(s-t)(1-st)
+ t'(1-t)^2-t(1-t')^2=(t'-t)(1-t't)
 \]
-with \(s=\sigma(t)\).  Direct multiplication in
+with \(t'=\sigma(t)\).  Direct multiplication in
 \eqref{eq:frobenius-gale-sector} makes eight entries vanish identically and
 leaves \(-2D_\sigma(t)\) in the last entry; odd characteristic gives the
 equivalence.  Setting \(\sigma\) to the identity yields
@@ -171,8 +171,128 @@ Over \(\F_{p^e}\), the basis permutation
  z(s)=3+3s,\qquad z(-s)=3+2s.
 \]
 Proposition~\ref{prop:frobenius-sector-divisors} gives the collision and
-diagonal-equivalence divisors relating \(t\) to \(\sigma(t)\).  It does not
-show that an arbitrary additive local Clifford determines a field
-automorphism or construct a local Clifford from a Galois match of \(z\).
-Neither a complete extension-field local-Clifford nor local-unitary
-classification is claimed.
+diagonal-equivalence divisors relating \(t\) to \(\sigma(t)\).  The next
+proposition shows that the second divisor is exact, and identifies the
+cross-ratio field of Section~\ref{subsec:additive-labels} on the pencil.
+
+\begin{proposition}[Cross-ratio field and Hermitian--Gale locus]
+\label{prop:pencil-hermitian-gale}
+Let \(q=p^e\) be odd, let \(t\in\mathcal U\), and let
+\(\tau\in\mathrm{Gal}(\F_q/\F_p)\).
+\begin{enumerate}
+\item \(K_{C_t}=\F_p(y(t))\).  Hence \(K_{C_t}=\F_q\) exactly when
+  \(E_\sigma(t)\ne0\) for every \(\sigma\ne1\).
+\item \(\tau C_t\) is diagonally equivalent to \(C_t^\perp\) if and only if
+  \(D_\tau(t)=0\).  In that case every multiplier \(w\) with
+  \(w\star C_t^\perp=\tau C_t\) is a scalar multiple of the vector \(w\) in
+  \eqref{eq:frobenius-gale-sector}.
+\item \(\dim_{\F_p}\Cond_{\F_p}(C_t,C_t^\perp)
+  =e\cdot\#\{\tau:D_\tau(t)=0\}\), and every such \(\tau\) satisfies
+  \(\tau^2(y(t))=y(t)\).
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+On the information set \(\{1,2,3\}\), the normalized matrix of \(C_t\) is
+\[
+ N_{C_t}=
+ \begin{pmatrix}
+  1&1&1\\
+  1&-\dfrac{y+1}{y-1}&-\dfrac{y-1}{y+1}\\[1ex]
+  1&-\dfrac{2}{y-1}&\dfrac{2}{y+1}
+ \end{pmatrix},
+\]
+by \(t^2-t+1=t(y+1)\) and \(t^2-3t+1=t(y-1)\); both factors are nonzero on
+\(\mathcal U\).  The last entry gives \(y=2/N_{33}-1\) in odd characteristic,
+so \(K_{C_t}=\F_p(y)\).  Since \(t+t^{-1}=y+2\), an automorphism fixes \(y\)
+exactly when it maps \(t\) into \(\{t,t^{-1}\}\), that is, exactly when
+\(E_\sigma(t)=0\).  This proves item~1.
+
+For item~2, \(\tau C_t=C_{\tau(t)}=\ker H_{\tau(t)}\), and the rows of
+\(H_t\) span \(C_t^\perp\).  Hence \(w\star C_t^\perp\subseteq\tau C_t\) is
+the linear system \(H_{t'}\diag(w)H_t^{\mathsf T}=0\) with \(t'=\tau(t)\).  Put
+\(u=1-t\) and \(v=1-t'\).  Its nine entries are
+\[
+\begin{gathered}
+ w_3+w_4+w_5+w_6,\quad u(w_3-w_4),\quad v(w_3-w_4),\quad
+ t(w_6-w_5),\quad t'(w_6-w_5),\\
+ w_1+w_2+uv(w_3+w_4),\quad u(w_1-w_2),\quad v(w_1-w_2),\quad
+ uv(w_1+w_2)+t't(w_5+w_6).
+\end{gathered}
+\]
+On \(\mathcal U\), \(u,v,t,t'\ne0\).  The second, fourth, and seventh
+entries force \(w_3=w_4\), \(w_5=w_6\), and \(w_1=w_2\).  In odd
+characteristic the first and sixth then give \(w_5=-w_3\) and
+\(w_1=-uvw_3\), and the last becomes \(-2w_3D_\tau(t)\).  The solution
+space is therefore spanned by the vector of
+\eqref{eq:frobenius-gale-sector} when \(D_\tau(t)=0\) and is zero
+otherwise.  By Proposition~\ref{prop:diagonal-multiplier-line}, a nonzero
+solution is a full-support multiplier with \(w\star C_t^\perp=\tau C_t\).
+
+Item~3 follows from item~2 and Proposition~\ref{prop:additive-conductor}:
+the nonzero Galois sectors of \(\Cond_{\F_p}(C_t,C_t^\perp)\) are the
+\(\tau\) with \(\tau C_t\sim C_t^\perp\), each of \(\F_p\)-dimension \(e\),
+and their restrictions to \(K_{C_t}=\F_p(y)\) square to the identity.
+\end{proof}
+
+Thus \(D_\tau\) cuts out the Hermitian points of the pencil exactly: by
+Proposition~\ref{prop:frobenius-sector-divisors}, \(D_{\mathrm{id}}=G\) does
+not vanish on \(\mathcal U\), so \(C_t\) is never of Euclidean type.  If
+\(D_\tau(t)=0\), then \(\tau\) cannot fix \(K_{C_t}\), since otherwise
+\(C_t^\perp\sim\tau C_t\sim C_t\).  Hence \(C_t\) is of Hermitian type in
+the sense of Section~\ref{subsec:additive-labels} precisely when
+\(D_\tau(t)=0\) for some \(\tau\).  On the locus \(K_{C_t}=\F_q\) only the involution of
+\(\F_q\) can occur, and only when \(e\) is even.
+
+\begin{proposition}[Semilinear additive intertwiners]
+\label{prop:pencil-semilinear-intertwiners}
+Let \(q=p^e\) be odd, and let \(t\in\mathcal U\) satisfy
+\(E_\sigma(t)\ne0\) for every \(\sigma\ne1\) and \(D_\tau(t)\ne0\) for
+every \(\tau\).  Then every local Clifford intertwiner from
+\(\Psi_t\) to some \(\Psi_u\), after a tensor-factor permutation, is
+\(\tau\)-semilinear at every coordinate for a single
+\(\tau\in\mathrm{Gal}(\F_q/\F_p)\).
+\end{proposition}
+
+\begin{proof}
+Let \(\pi\) be the permutation.  The four blocks of the intertwiner are
+additive conductors from \(C_t\) or \(C_t^\perp\) to \(\pi C_u\) or
+\(\pi C_u^\perp\), all of them \([6,3,4]_q\) MDS codes.  By
+Proposition~\ref{prop:pencil-hermitian-gale}, \(K_{C_t}=\F_q\), so by
+Proposition~\ref{prop:additive-conductor} each nonzero block is
+\(\rho\)-semilinear for a single \(\rho\), with \(\pi C_u\sim\rho C_t\) or
+the corresponding relation for the other blocks.  If the two diagonal blocks
+are nonzero, with automorphisms \(\tau_1\) and \(\tau_4\), then
+\(\pi C_u\sim\tau_1C_t\) dualizes to \(\pi C_u^\perp\sim\tau_1C_t^\perp\), and
+comparison with \(\pi C_u^\perp\sim\tau_4C_t^\perp\) gives
+\(\tau_1^{-1}\tau_4C_t^\perp\sim C_t^\perp\).  Since
+\(K_{C_t^\perp}=\F_q\), Lemma~\ref{lem:cross-ratio-field} gives
+\(\tau_1=\tau_4\).  The two off-diagonal blocks share their automorphism in
+the same way.  If a diagonal block for \(\tau_1\) and an off-diagonal block
+for \(\tau_3\) were both nonzero, the same comparison would give
+\(C_t^\perp\sim\rho C_t\) with \(\rho\) equal to \(\tau_1^{-1}\tau_3\) or
+\(\tau_3^{-1}\tau_1\), which
+Proposition~\ref{prop:pencil-hermitian-gale} excludes because
+\(D_\rho(t)\ne0\) for every \(\rho\).  Hence the intertwiner is either block
+diagonal or block antidiagonal, with one automorphism throughout.
+\end{proof}
+
+Both hypotheses are needed.  At \(t=2a+1\in\F_{49}=\F_7[a]/(a^2+6a+3)\),
+\(t\) generates \(\F_{49}\) but \(E_{\mathrm{Frob}}(t)=0\), so
+\(K_{C_t}=\F_7\), and \(C_t\) is of zero type by
+\eqref{eq:frobenius-sector-disjointness}.
+Theorem~\ref{thm:additive-label-groups} gives the fixed-coordinate label group
+\(\mathrm{GL}_2(7)\), of order \(2016\), and only \(96\) of its elements are
+semilinear.  After the reduction in the proof of that theorem, a label map
+is the pair \((\mu,(\mu^*)^{-1})\) applied at every coordinate, where
+\(\mu\in\mathrm{GL}_{\F_7}(\F_{49})\) and \(\mu^*\) is its adjoint for
+\(\Tr_{\F_{49}/\F_7}(xz)\).  It is semilinear exactly when \(\mu=c\rho\)
+with \(c\in\F_{49}^\times\) and \(\rho\in\{1,\mathrm{Frob}\}\); then
+\(\Tr(c\rho(x)z)=\Tr(x\rho^{-1}(cz))\) shows that \((\mu^*)^{-1}\) is
+\(\rho\)-semilinear too, giving \(2\cdot48=96\) elements.
+At the Hermitian points \(D_{\mathrm{Frob}}(t)=0\), four in
+\(\mathcal U(\F_9)\) and twelve in \(\mathcal U(\F_{49})\), the label group
+is \(\mathrm{GU}_2(\sqrt q)\), and all but \(2(q-1)\) of its elements mix
+Galois sectors.  The proposition does not construct a local Clifford from a
+Galois match of \(z\).  Neither a complete extension-field local-Clifford
+nor local-unitary classification is claimed.

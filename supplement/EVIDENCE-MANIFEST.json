@@ -85,6 +85,16 @@
       "bytes": 29838,
       "path": "evidence/2026-07-25-ame-lu-party-extension-examples.py",
       "sha256": "0a43695889d863fdd34fb45cad3fee30c3f5e9d7ee9696ed27e1b13413eae00b"
+    },
+    {
+      "bytes": 9329,
+      "path": "evidence/2026-11-26-additive-mds-conductors.json",
+      "sha256": "d175f218e83f56ca60df0b77338f116c879cd072efe4f9aa04b129ce9bee9ff0"
+    },
+    {
+      "bytes": 31113,
+      "path": "evidence/2026-11-26-additive-mds-conductors.py",
+      "sha256": "53f7c3f89166feb0e3bcc02ee863bb748f25180216948a475087454108820fb3"
     }
   ],
   "replays": [
@@ -118,6 +128,10 @@
     ],
     [
       "evidence/2026-07-25-ame-lu-party-extension-examples.py",
+      "--check"
+    ],
+    [
+      "evidence/2026-11-26-additive-mds-conductors.py",
       "--check"
     ]
   ]
